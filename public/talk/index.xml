@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks on Burak Kürsad Günhan</title>
+    <link>/talk/</link>
+    <description>Recent content in Talks on Burak Kürsad Günhan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018, Burak Kürsad Günhan</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NMA-INLA</title>
+      <link>/talk/nmainla_ibs_2018/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/talk/nmainla_ibs_2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

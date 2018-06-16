@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Burak Kürsad Günhan on Burak Kürsad Günhan</title>
+    <link>/</link>
+    <description>Recent content in Burak Kürsad Günhan on Burak Kürsad Günhan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018, Burak Kürsad Günhan</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0200</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Posters</title>
+      <link>/poster/posters/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/poster/posters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A design-by-treatment interaction model for network meta-analysis and meta-regression with integrated nested Laplace approximations</title>
+      <link>/publication/nmainla/</link>
+      <pubDate>Wed, 29 Nov 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/nmainla/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The art of randomization</title>
+      <link>/post/2015-07-23-randomization/</link>
+      <pubDate>Thu, 06 Apr 2017 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-07-23-randomization/</guid>
+      <description>&lt;script type=&#34;text/javascript&#34; async
+src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML&#34;&gt;
+&lt;/script&gt;
+&lt;p&gt;We all know that drugs are used as treatments for diseases, right? But did you think about how, scientifically, it is shown that drugs actually benefits and but not harms? Before my biostats education, I was naively imagining that since we know what causes the disease and which part of the body it affects etc., scientist are producing chemicals to cure the diseases. But, of course, this was so naive and human body is so complicated, and mostly we don’t know even the causes of the diseases. Then, I learned that, &lt;em&gt;clinical studies&lt;/em&gt; are conducted to show whether a drug works or not &lt;a href=&#34;#fn1&#34; class=&#34;footnoteRef&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Let`s imagine that if anybody who developed a disease die without exception (in other words outcome of disease is &lt;em&gt;invariable&lt;/em&gt;). Then, if we give our drug to one diseased person, and to see that he/she lives, that would be an indication for the value of drug. But we know that the outcome of disease, patients and their reaction to drugs are all vary.&lt;/p&gt;
+&lt;p&gt;So, we need to give the drug to many patients, and then analyse the results. But do we need a representative sample of the patients from whole population (for example from one country) to obtain unbiased results? Finding such people would be very hard. But still, let say we found 100 people who are representative, and give them drugs. By the way, let assume that our aim is reducing the blood pressure, so we took the number of diastolic blood pressure from 100 people before they receive the drug (&lt;em&gt;baseline&lt;/em&gt;) and after they receive it (&lt;em&gt;follow-up&lt;/em&gt;). So, below figure is the difference of the number of diastolic blood pressure from baseline to follow-up:&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/blog/figure/source/2017-04-06-randomization/unnamed-chunk-1-1.png&#34; alt=&#34;plot of chunk unnamed-chunk-1&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;plot of chunk unnamed-chunk-1&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;OK, results are almost all negative, that means blood pressure is decreasing (which was our aim), so we can conclude that drug works, right? Actually, no. The thing is although patients are recovered, &lt;strong&gt;we don’t know which of the patients who recover do so because of the drug or because they would have done so anyway&lt;/strong&gt;. Therefore, we need another 100 patients who enter the clinical trial but do not take the drug: so-called &lt;em&gt;control&lt;/em&gt; group (&lt;em&gt;treatment&lt;/em&gt; group was the first one). Here, an important point is that the baseline of the treatment group and control group should be similar, otherwise the results may depend on the baseline, that mean we won`t get any reliable results.&lt;/p&gt;
+&lt;p&gt;One way to get comparable groups is that taking two representative samples from whole population, and making one group treatment group and the other control group. But this is way more costly and hard.&lt;/p&gt;
+&lt;p&gt;Another option is the &lt;em&gt;randomization&lt;/em&gt;. If there are 200 patients who are eligible to enter the experiment, we randomly assign them to either control group or treatment group (&lt;em&gt;randomized controlled trial (RCT)&lt;/em&gt;). Now we have comparable groups. Then, we see results like that&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/blog/figure/source/2017-04-06-randomization/unnamed-chunk-2-1.png&#34; alt=&#34;plot of chunk unnamed-chunk-2&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;plot of chunk unnamed-chunk-2&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;One of the coolest thing with RCTs is that we don’t need any representative sample from whole population. Let me explain why.&lt;/p&gt;
+&lt;p&gt;Below you see a diagram which explains how patients are entered to an RCT.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/blog/figure/source/2017-04-06-randomization/RCT.png&#34; /&gt;
+
+&lt;/div&gt;
+&lt;p&gt;At the top you see population P. We want to know whether drug works in population P. But then, we have some patients who are eligible to trial (Sample A), lastly we have Sample B which includes the eligible patients who give their consent to enter the RCT (Treatment 1 is control group and Treatment 2 is treatment group).&lt;/p&gt;
+&lt;p&gt;Let say, the outcome measured on each individual (for example blood pressure) is a random variable &lt;span class=&#34;math display&#34;&gt;\[X\]&lt;/span&gt;. Say &lt;span class=&#34;math display&#34;&gt;\[E(X_{C}) = \mu\]&lt;/span&gt; (if we do not give any drug to sample B) and &lt;span class=&#34;math display&#34;&gt;\[E(X_{T}) = \mu + a\]&lt;/span&gt; where &lt;span class=&#34;math display&#34;&gt;\[a\]&lt;/span&gt; is &lt;em&gt;true&lt;/em&gt; treatment effect (if we give the drug to sample B). And let say, &lt;span class=&#34;math display&#34;&gt;\[\bar{X}_{C}\]&lt;/span&gt; and &lt;span class=&#34;math display&#34;&gt;\[\bar{X}_{T}\]&lt;/span&gt; are mean of control group and treatment group (after randomization).&lt;/p&gt;
+&lt;p&gt;Then, &lt;span class=&#34;math display&#34;&gt;\[E(X_{C}) = E(\bar{X}_{C}) = \mu\]&lt;/span&gt; and &lt;span class=&#34;math display&#34;&gt;\[E(X_{T}) = E(\bar{X}_{T}) = \mu + a\]&lt;/span&gt;, since both control group and treatment groups are random sample from Sample B. Then, &lt;span class=&#34;math display&#34;&gt;\[E(\bar{X}_{T}) - E(\bar{X}_{C}) = a\]&lt;/span&gt;. Statistically speaking we have an &lt;em&gt;unbiased&lt;/em&gt; estimate of treatment effect &lt;span class=&#34;math display&#34;&gt;\[a\]&lt;/span&gt;. As you see, we did not care that sample B (or A) is a random sample from population P. Even if &lt;span class=&#34;math display&#34;&gt;\[E(X_{C})\]&lt;/span&gt; in population P is very different from &lt;span class=&#34;math display&#34;&gt;\[\mu\]&lt;/span&gt;, our estimate of &lt;span class=&#34;math display&#34;&gt;\[a\]&lt;/span&gt; is still unbiased.&lt;/p&gt;
+&lt;p&gt;Another important feature of a RCT is that by design, possible confounding factors are controlled. This is the crucial difference between observational studies and RCTs. Because of these and some other important reasons, RCTs are generally considered as gold standard. But sometimes it is just not possible to conduct an RCT. For example, you wonder if there is an association between smoking and lung cancer. So what you need is that finding &lt;span class=&#34;math display&#34;&gt;\[N\]&lt;/span&gt; people, and after randomization you need to force half of them to smoke, right? But of course this is completely unethical. So in similar scenarios, and also because RCTs are more costly than observation studies, we have to make use of observational studies. Therefore, in general, when we want to generalize our results from the sample to target population, we either need the randomization (Randomized clinical trial) or representative sample (observational studies).&lt;/p&gt;
+&lt;p&gt;Lastly, there is another source of evidence which is regarded even more reliable than an RCT, and I will try to explain it in the next post.&lt;/p&gt;
+&lt;p&gt;Note: I took the diagram and definitions from the book: “Introduction to Randomized Controlled Clinical Trials” (Second edition) written by John N. S. Matthews.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Actually, a better question may be what is the magnitude of the treatment effect and what is the uncertainty attached to it, but this is not the main point of the post.&lt;a href=&#34;#fnref1&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NMA-INLA</title>
+      <link>/talk/nmainla_ibs_2018/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/talk/nmainla_ibs_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meta-analysis of rare events with few studies</title>
+      <link>/project/ma-wip/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/project/ma-wip/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
