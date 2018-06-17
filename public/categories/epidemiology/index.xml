@@ -7,18 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018, Burak Kürsad Günhan</copyright>
-    <lastBuildDate>Thu, 06 Apr 2017 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jun 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/epidemiology/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>The art of randomization</title>
-      <link>/post/2015-07-23-randomization/</link>
-      <pubDate>Thu, 06 Apr 2017 21:13:14 -0500</pubDate>
+      <title>A misunderstanding about life expectancy</title>
+      <link>/post/a-misunderstanding-about-life-expectancy/</link>
+      <pubDate>Wed, 08 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>/post/2015-07-23-randomization/</guid>
-      <description>We all know that drugs are used as treatments for diseases, right? But did you think about how, scientifically, it is shown that drugs actually benefits and but not harms? Before my biostats education, I was naively imagining that since we know what causes the disease and which part of the body it affects etc., scientist are producing chemicals to cure the diseases. But, of course, this was so naive and human body is so complicated, and mostly we don’t know even the causes of the diseases.</description>
+      <guid>/post/a-misunderstanding-about-life-expectancy/</guid>
+      <description>Here I want to talk about a very common mistake when it comes to life expectancy and its interpretation. In one of my epidemiology courses, the lecturer showed the below Figure.
+ I am sure you also see graphs like that not this particular one (I mean for Switzerland) but maybe similar. OK, we see a very clear trend that life expectancy increasing in the last century. It was even doubled, right?</description>
     </item>
     
   </channel>

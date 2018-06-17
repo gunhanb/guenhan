@@ -13,11 +13,29 @@
     
     
     <item>
-      <title>NMA-INLA</title>
+      <title>A design-by-treatment interaction model for network meta-analysis and meta-regression with integrated nested Laplace approximations</title>
       <link>/talk/nmainla_ibs_2018/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
       <guid>/talk/nmainla_ibs_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guiding Phase I dose-escalation trials with more than one dosing regimen</title>
+      <link>/talk/tite_pk_ibc_2018/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/talk/tite_pk_ibc_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meta-analysis of rare events with few studies</title>
+      <link>/talk/ma_wip_psi_2018/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/talk/ma_wip_psi_2018/</guid>
       <description></description>
     </item>
     

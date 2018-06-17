@@ -16,43 +16,36 @@
       <pubDate>Wed, 29 Nov 2017 00:00:00 +0100</pubDate>
       
       <guid>/publication/nmainla/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
       <title>The art of randomization</title>
-      <link>/post/2015-07-23-randomization/</link>
-      <pubDate>Thu, 06 Apr 2017 21:13:14 -0500</pubDate>
+      <link>/post/the-art-of-randomization/</link>
+      <pubDate>Thu, 06 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/2015-07-23-randomization/</guid>
+      <guid>/post/the-art-of-randomization/</guid>
       <description>&lt;script type=&#34;text/javascript&#34; async
 src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML&#34;&gt;
 &lt;/script&gt;
 &lt;p&gt;We all know that drugs are used as treatments for diseases, right? But did you think about how, scientifically, it is shown that drugs actually benefits and but not harms? Before my biostats education, I was naively imagining that since we know what causes the disease and which part of the body it affects etc., scientist are producing chemicals to cure the diseases. But, of course, this was so naive and human body is so complicated, and mostly we don’t know even the causes of the diseases. Then, I learned that, &lt;em&gt;clinical studies&lt;/em&gt; are conducted to show whether a drug works or not &lt;a href=&#34;#fn1&#34; class=&#34;footnoteRef&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Let`s imagine that if anybody who developed a disease die without exception (in other words outcome of disease is &lt;em&gt;invariable&lt;/em&gt;). Then, if we give our drug to one diseased person, and to see that he/she lives, that would be an indication for the value of drug. But we know that the outcome of disease, patients and their reaction to drugs are all vary.&lt;/p&gt;
 &lt;p&gt;So, we need to give the drug to many patients, and then analyse the results. But do we need a representative sample of the patients from whole population (for example from one country) to obtain unbiased results? Finding such people would be very hard. But still, let say we found 100 people who are representative, and give them drugs. By the way, let assume that our aim is reducing the blood pressure, so we took the number of diastolic blood pressure from 100 people before they receive the drug (&lt;em&gt;baseline&lt;/em&gt;) and after they receive it (&lt;em&gt;follow-up&lt;/em&gt;). So, below figure is the difference of the number of diastolic blood pressure from baseline to follow-up:&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/blog/figure/source/2017-04-06-randomization/unnamed-chunk-1-1.png&#34; alt=&#34;plot of chunk unnamed-chunk-1&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;plot of chunk unnamed-chunk-1&lt;/p&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2017-04-06-the-art-of-randomization_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;OK, results are almost all negative, that means blood pressure is decreasing (which was our aim), so we can conclude that drug works, right? Actually, no. The thing is although patients are recovered, &lt;strong&gt;we don’t know which of the patients who recover do so because of the drug or because they would have done so anyway&lt;/strong&gt;. Therefore, we need another 100 patients who enter the clinical trial but do not take the drug: so-called &lt;em&gt;control&lt;/em&gt; group (&lt;em&gt;treatment&lt;/em&gt; group was the first one). Here, an important point is that the baseline of the treatment group and control group should be similar, otherwise the results may depend on the baseline, that mean we won`t get any reliable results.&lt;/p&gt;
 &lt;p&gt;One way to get comparable groups is that taking two representative samples from whole population, and making one group treatment group and the other control group. But this is way more costly and hard.&lt;/p&gt;
 &lt;p&gt;Another option is the &lt;em&gt;randomization&lt;/em&gt;. If there are 200 patients who are eligible to enter the experiment, we randomly assign them to either control group or treatment group (&lt;em&gt;randomized controlled trial (RCT)&lt;/em&gt;). Now we have comparable groups. Then, we see results like that&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/blog/figure/source/2017-04-06-randomization/unnamed-chunk-2-1.png&#34; alt=&#34;plot of chunk unnamed-chunk-2&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;plot of chunk unnamed-chunk-2&lt;/p&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2017-04-06-the-art-of-randomization_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;One of the coolest thing with RCTs is that we don’t need any representative sample from whole population. Let me explain why.&lt;/p&gt;
 &lt;p&gt;Below you see a diagram which explains how patients are entered to an RCT.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/blog/figure/source/2017-04-06-randomization/RCT.png&#34; /&gt;
+&lt;img src=&#34;/post/2017-04-06-the-art-of-randomization_files/figure-html/RCT.png&#34; /&gt;
 
 &lt;/div&gt;
 &lt;p&gt;At the top you see population P. We want to know whether drug works in population P. But then, we have some patients who are eligible to trial (Sample A), lastly we have Sample B which includes the eligible patients who give their consent to enter the RCT (Treatment 1 is control group and Treatment 2 is treatment group).&lt;/p&gt;
-&lt;p&gt;Let say, the outcome measured on each individual (for example blood pressure) is a random variable &lt;span class=&#34;math display&#34;&gt;\[X\]&lt;/span&gt;. Say &lt;span class=&#34;math display&#34;&gt;\[E(X_{C}) = \mu\]&lt;/span&gt; (if we do not give any drug to sample B) and &lt;span class=&#34;math display&#34;&gt;\[E(X_{T}) = \mu + a\]&lt;/span&gt; where &lt;span class=&#34;math display&#34;&gt;\[a\]&lt;/span&gt; is &lt;em&gt;true&lt;/em&gt; treatment effect (if we give the drug to sample B). And let say, &lt;span class=&#34;math display&#34;&gt;\[\bar{X}_{C}\]&lt;/span&gt; and &lt;span class=&#34;math display&#34;&gt;\[\bar{X}_{T}\]&lt;/span&gt; are mean of control group and treatment group (after randomization).&lt;/p&gt;
-&lt;p&gt;Then, &lt;span class=&#34;math display&#34;&gt;\[E(X_{C}) = E(\bar{X}_{C}) = \mu\]&lt;/span&gt; and &lt;span class=&#34;math display&#34;&gt;\[E(X_{T}) = E(\bar{X}_{T}) = \mu + a\]&lt;/span&gt;, since both control group and treatment groups are random sample from Sample B. Then, &lt;span class=&#34;math display&#34;&gt;\[E(\bar{X}_{T}) - E(\bar{X}_{C}) = a\]&lt;/span&gt;. Statistically speaking we have an &lt;em&gt;unbiased&lt;/em&gt; estimate of treatment effect &lt;span class=&#34;math display&#34;&gt;\[a\]&lt;/span&gt;. As you see, we did not care that sample B (or A) is a random sample from population P. Even if &lt;span class=&#34;math display&#34;&gt;\[E(X_{C})\]&lt;/span&gt; in population P is very different from &lt;span class=&#34;math display&#34;&gt;\[\mu\]&lt;/span&gt;, our estimate of &lt;span class=&#34;math display&#34;&gt;\[a\]&lt;/span&gt; is still unbiased.&lt;/p&gt;
-&lt;p&gt;Another important feature of a RCT is that by design, possible confounding factors are controlled. This is the crucial difference between observational studies and RCTs. Because of these and some other important reasons, RCTs are generally considered as gold standard. But sometimes it is just not possible to conduct an RCT. For example, you wonder if there is an association between smoking and lung cancer. So what you need is that finding &lt;span class=&#34;math display&#34;&gt;\[N\]&lt;/span&gt; people, and after randomization you need to force half of them to smoke, right? But of course this is completely unethical. So in similar scenarios, and also because RCTs are more costly than observation studies, we have to make use of observational studies. Therefore, in general, when we want to generalize our results from the sample to target population, we either need the randomization (Randomized clinical trial) or representative sample (observational studies).&lt;/p&gt;
+&lt;p&gt;Let say, the outcome measured on each individual (for example blood pressure) is a random variable &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt;. Say &lt;span class=&#34;math inline&#34;&gt;\(E(X_{C}) = \mu\)&lt;/span&gt; (if we do not give any drug to sample B) and &lt;span class=&#34;math inline&#34;&gt;\(E(X_{T}) = \mu + a\)&lt;/span&gt; where &lt;span class=&#34;math inline&#34;&gt;\(a\)&lt;/span&gt; is &lt;em&gt;true&lt;/em&gt; treatment effect (if we give the drug to sample B). And let say, &lt;span class=&#34;math inline&#34;&gt;\(\bar{X}_{C}\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\bar{X}_{T}\)&lt;/span&gt; are mean of control group and treatment group (after randomization).&lt;/p&gt;
+&lt;p&gt;Then, &lt;span class=&#34;math inline&#34;&gt;\(E(X_{C}) = E(\bar{X}_{C}) = \mu\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(E(X_{T}) = E(\bar{X}_{T}) = \mu + a\)&lt;/span&gt;, since both control group and treatment groups are random sample from Sample B. Then, &lt;span class=&#34;math inline&#34;&gt;\(E(\bar{X}_{T}) - E(\bar{X}_{C}) = a\)&lt;/span&gt;. Statistically speaking we have an &lt;em&gt;unbiased&lt;/em&gt; estimate of treatment effect &lt;span class=&#34;math inline&#34;&gt;\(a\)&lt;/span&gt;. As you see, we did not care that sample B (or A) is a random sample from population P. Even if &lt;span class=&#34;math inline&#34;&gt;\(E(X_{C})\)&lt;/span&gt; in population P is very different from &lt;span class=&#34;math inline&#34;&gt;\(\mu\)&lt;/span&gt;, our estimate of &lt;span class=&#34;math inline&#34;&gt;\(a\)&lt;/span&gt; is still unbiased.&lt;/p&gt;
+&lt;p&gt;Another important feature of a RCT is that by design, possible confounding factors are controlled. This is the crucial difference between observational studies and RCTs. Because of these and some other important reasons, RCTs are generally considered as gold standard. But sometimes it is just not possible to conduct an RCT. For example, you wonder if there is an association between smoking and lung cancer. So what you need is that finding &lt;span class=&#34;math inline&#34;&gt;\(N\)&lt;/span&gt; people, and after randomization you need to force half of them to smoke, right? But of course this is completely unethical. So in similar scenarios, and also because RCTs are more costly than observation studies, we have to make use of observational studies. Therefore, in general, when we want to generalize our results from the sample to target population, we either need the randomization (Randomized clinical trial) or representative sample (observational studies).&lt;/p&gt;
 &lt;p&gt;Lastly, there is another source of evidence which is regarded even more reliable than an RCT, and I will try to explain it in the next post.&lt;/p&gt;
 &lt;p&gt;Note: I took the diagram and definitions from the book: “Introduction to Randomized Controlled Clinical Trials” (Second edition) written by John N. S. Matthews.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
@@ -65,7 +58,44 @@ src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHT
     </item>
     
     <item>
-      <title>NMA-INLA</title>
+      <title>Plane crashes and household furniture</title>
+      <link>/post/plane-crashes-and-household-furniture/</link>
+      <pubDate>Sun, 05 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/plane-crashes-and-household-furniture/</guid>
+      <description>&lt;script type=&#34;text/javascript&#34; async
+src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML&#34;&gt;
+&lt;/script&gt;
+&lt;p&gt;You may wonder what connects the plane crashes to household furniture, right? In both of those situations, there is a probability of dying attached to them. Maybe you already read stuff like &lt;a href=&#34;https://www.buzzfeed.com/staceyc5/6-things-more-likely-to-kill-you-than-a-plane-cras-4mkq?utm_term=.dx2zd0Lxm#.lim0Kj4dQ&#34;&gt;6 Things More Likely To Kill You Than A Plane Crash&lt;/a&gt; or &lt;a href=&#34;http://www.travelstart.co.za/blog/6-ridiculous-things-more-likely-to-kill-you-than-a-plane-crash/&#34;&gt;this&lt;/a&gt;. You may see such news after a plane crash occurred in the world, and basically their take home message is that plane crashes is not that common as we might normally think. OK, this we may already know. But the author of such articles misses an important point which is very nicely explained by &lt;a href=&#34;http://www.forbes.com/sites/alexknapp/2015/09/23/what-mashable-gets-wrong-about-shark-attacks-and-selfies/#4ff5b554c4b9&#34;&gt;this Forbes article&lt;/a&gt;, and I will try to elaborate in this post &lt;a href=&#34;#fn1&#34; class=&#34;footnoteRef&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Now, let’s think about the claims of such stuff more, for example the comparison of dying by a plane crash and by a household furniture (for instance falling from a bed). In &lt;a href=&#34;http://www.travelstart.co.za/blog/6-ridiculous-things-more-likely-to-kill-you-than-a-plane-crash/&#34;&gt;this article&lt;/a&gt;, it is written that the odds dying from plane crash is 1 in 11 million. And than they conclude the following statement&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Your bed is not your friend. Next time you have a nap remember there is a 1 in 2 million chance of dying from falling off a bed or chair!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Therefore an average person is more likely die from falling off a bed or chair compared to plane crashes. Following this logic, should we fear more from dying when we go to sleep than a plane trip? This seems awkward, right? Now let’s take a closer look to the numbers.&lt;/p&gt;
+&lt;p&gt;If we assume there are 7.5 billion people in the world, that means annually &lt;span class=&#34;math inline&#34;&gt;\((7.5 * 10^9) / (11 * 10^6) = 681\)&lt;/span&gt; people are killed by plane crashes (according to &lt;a href=&#34;http://www.travelstart.co.za/blog/6-ridiculous-things-more-likely-to-kill-you-than-a-plane-crash/&#34;&gt;same article above&lt;/a&gt;). This looks reasonable when we look at some original sources like &lt;a href=&#34;http://www.ibtimes.com/how-many-planes-crash-every-year-how-many-people-die-plane-crashes-chart-1560554&#34;&gt;this&lt;/a&gt;, and a nice figure from the same source is shown below.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/post/2017-02-05-plane-crashes-and-household-furniture_files/figure-html/plane_crashes.png&#34; /&gt;
+
+&lt;/div&gt;
+&lt;p&gt;On the other hand, annually &lt;span class=&#34;math inline&#34;&gt;\((7.5 * 10^9) / (2 * 10^6) = 3750\)&lt;/span&gt; people are killed by household furniture (if we believe their numbers). Therefore, if we compare &lt;em&gt;absolute&lt;/em&gt; risks, then household furniture are more dangerous. But what’s more relevant is actually &lt;em&gt;relative&lt;/em&gt; risks rather than absolute risks. This is because you go to bed far more times than you use an air plane annually, right? Now let’s calculate some (very) crude relative risks to compare.&lt;/p&gt;
+&lt;p&gt;According to &lt;a href=&#34;http://www.iata.org/pressroom/pr/Pages/2012-12-06-01.aspx&#34;&gt;this source&lt;/a&gt;, 3.6 billion passengers were used airplanes worldwide in 2016. So 681 deaths from 3.6 billion, then relative risk is &lt;span class=&#34;math inline&#34;&gt;\(681 / (3.6 * 10^9) = 1890 / 10^{10}\)&lt;/span&gt;. I don’t have a source for how many times people go to bed or sit on a chair annually, but assume that any person goes 0.75 times (of course I made this number up) to bed (or chair) everyday. That means 3750 deaths from &lt;span class=&#34;math inline&#34;&gt;\(5.625 * 10^6 * 365\)&lt;/span&gt;, so relative risk is &lt;span class=&#34;math inline&#34;&gt;\(3750 / (5.625 * 10^9 * 365) = 18 / 10^{10}\)&lt;/span&gt;. Therefore, our conclusion is that&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Don’t afraid when you go to sleep even if some article says otherwise. Next time you have a nap remember the relative risk of of dying from falling off a bed or chair is 18 in 10 billion. And this is almost 105 times lower compared to dying by a plane crash.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Now, let’s think about the drowning in a bath. Our very same source says that the chance of drowning in a bath is 1 in 685,000. And if we assume that an average person use bath 0.5 times everyday (of course I don’t know any exact number). Then the relative risk is that &lt;span class=&#34;math inline&#34;&gt;\(10948 / (3.75 * 10^9 * 365) = 80 / 10^{10}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;OK, this may also have lower relative risk compared to plane crashes, but still maybe close right? This looks strange to me. Then I have found this &lt;a href=&#34;http://blogs.wsj.com/japanrealtime/2016/01/22/deaths-from-drowning-in-bathtubs-up-70-in-10-years-report/&#34;&gt;WSJ article&lt;/a&gt; which says that in 2014, 4.866 people drowned to death in a bathtub at households in Japan. This is just too much. But they also says that 9 out of 10 involving those aged 65 or older. So this is exactly the very meaning of confounding (as I explained it in a &lt;a href=&#34;https://gunhanb.github.io/blog//2016/12/06/confounding.html&#34;&gt;previous post&lt;/a&gt;), I guess age is also an important confounding factor for dying by falling from a bed, but presumably not for dying by a plane crash. If we put it like the Turkish comedian &lt;a href=&#34;https://www.youtube.com/watch?v=NwmtklIi5TI&#34;&gt;Cem Yilmaz&lt;/a&gt; says, when the plane crashes, it does not matter whether your are in business class or not.&lt;/p&gt;
+&lt;p&gt;Lastly, if we look from completely different perspective, maybe all of those comparisons can be seen as redundant. Because you don’t go to bed or sit a chair as an alternative to use an airplane, right? I mean, taking bath in a bathtub is not a way of transportation, of course. And when we compare different ways of transportation, then without a doubt planes are the most safest.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;By the way, I want to thank my mathematician friend, Hasan, to point out this article.&lt;a href=&#34;#fnref1&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A design-by-treatment interaction model for network meta-analysis and meta-regression with integrated nested Laplace approximations</title>
       <link>/talk/nmainla_ibs_2018/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
@@ -74,11 +104,145 @@ src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHT
     </item>
     
     <item>
-      <title>Meta-analysis of rare events with few studies</title>
-      <link>/project/ma-wip/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      <title>Guiding Phase I dose-escalation trials with more than one dosing regimen</title>
+      <link>/talk/tite_pk_ibc_2018/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>/project/ma-wip/</guid>
+      <guid>/talk/tite_pk_ibc_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meta-analysis of rare events with few studies</title>
+      <link>/talk/ma_wip_psi_2018/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/talk/ma_wip_psi_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Confounding or the relationship between shoe size and salary</title>
+      <link>/post/confounding-or-the-relationship-between-shoe-size-and-salary/</link>
+      <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/post/confounding-or-the-relationship-between-shoe-size-and-salary/</guid>
+      <description>&lt;p&gt;There are few terms in the context of statistics which I find very interesting and powerful when I, first, understand it. One of which is, undoubtedly, the concept of &lt;em&gt;confounding&lt;/em&gt;. This term attracted my attention; since, in my opinion, it has potential to explain many mechanisms in different fields when statistical methods are used as tools. As you may imagine, medicine, biology or political science are only some examples for different areas. To explain the confounding, I use following example.&lt;/p&gt;
+&lt;div id=&#34;a-simple-example&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;A simple example&lt;/h1&gt;
+&lt;p&gt;Now, assume that we want to examine the association between the salary per month of a person who lives in Zurich city and his or her shoe size. Of course, you may think this example is a silly one, but, I believe, by using such an example, one can understand the confounder term very easily. In order to have some data to analyse, you go to city’s most crowded street and collect data by using a questionnaire. Assume that your questionnaire is valid, you asked 1000 people (enough sample size!), so in short your data is &lt;em&gt;reliable&lt;/em&gt;. Then you want to plot your data so as to see what is going on in the dataset. So, you decided to use a scatterplot, and you get below figure.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2016-12-06-confounding-or-the-relationship-between-shoe-size-and-salary_files/figure-html/plot1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Moreover, you use simple regression, estimated the regression line and plot it as a superimposed line to the Figure (Of course I did not do any survey, I just simulated data).&lt;/p&gt;
+&lt;p&gt;Then, you concluded from this Figure as follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There is a strong association between shoe size and salary per month. With increasing shoe size of a person, his or her salary is increasing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;So far, everything seems you correct but still we have a weird conclusion, right? You can understand the underlying problem, when you plot the same data but now using different colors for male and female (luckily you have gender information coming from your questionnaire). And you plot two simple regression lines for female and male separately – you estimated those two lines by using two different subset of data. So we obtained the below Figure.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2016-12-06-confounding-or-the-relationship-between-shoe-size-and-salary_files/figure-html/plot2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Now our conclusion is changed completely! The &lt;em&gt;effect&lt;/em&gt; vanished, and now we don’t have any evidence suggest that there is an association between shoe size and salary. Our possible conclusion, however, is as follows. Males have substantially larger shoe size than females on average (which has a biological explanation) and also, males has earning more money on average (which is also true indeed). But shoe size has nothing to do with salary for both subset of data! In such a case, &lt;em&gt;gender&lt;/em&gt; is a confounding variable which is mixing the effect. In this scenario, we see an effect which is not there, actually. But in other situations, you can see an effect but you may get the direction wrong.&lt;/p&gt;
+&lt;p&gt;These situations are not an extreme cases, especially if you are working with &lt;em&gt;observational&lt;/em&gt; data. Therefore, one should try to eliminate any possible confounders. For example, if you are investigating a health-related issue, age and gender are usual suspects. But at the end of the day, it is very important not to &lt;em&gt;overinterpret&lt;/em&gt; the results in case of any confounders.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nasıl &#34;reproducible research&#34; yaparım?</title>
+      <link>/post/nas%C4%B1l-reproducible-research-yapar%C4%B1m/</link>
+      <pubDate>Thu, 27 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/post/nas%C4%B1l-reproducible-research-yapar%C4%B1m/</guid>
+      <description>&lt;p&gt;Diyelim ki bir arkadaşınız yaklaşık bir sene önce tamamlamış olduğunuz bir &lt;em&gt;research&lt;/em&gt; calışmanızdan birşey sordu. Calısmanıza dönüp analizleri tekrar gözden geçirmek, tablo ve figürleri &lt;em&gt;reproduce&lt;/em&gt; edebilmeniz ne kadar vaktinizi alacaktır? Veya arkadaşınızı boşverin, sadece kendiniz 2 sene önce hazırlamış olduğunuz sunumdaki &lt;em&gt;result&lt;/em&gt;larin tekrar elde etmeye calışsanız? Bu süreyi ve olası zahmeti azaltmanın (ve daha fazlası) metodu &lt;em&gt;reproducible research&lt;/em&gt; yapmanız!&lt;/p&gt;
+&lt;p&gt;Eğer günlük hayattaki calışmalarınızda bir sekilde &lt;em&gt;data analysis&lt;/em&gt; yapıyorsaniz, eski yontemler yerine &lt;em&gt;reproducible research&lt;/em&gt; kullanmaniz belki biraz daha zahmetli ama uzun vadede kesinlikle daha faydali.&lt;/p&gt;
+&lt;p&gt;Bir başka açıdan bakacak olursak, geleneksel rapor yazımında, sonuçları bir software de hesaplayip, sonra da hesaplamış oldugumuz sayılari elle sonuç bölümüne yazarız. Ama bu yöntem reproducible değil, data &lt;em&gt;software&lt;/em&gt; e bağlı fakat sonuçlar yazdıgımız metne bağlı değil, dolayısıyla hata yapma ihtimali bir hayli yüksek.&lt;/p&gt;
+&lt;p&gt;Bu konu tabiiki bayağı geniş ve kapsamlı, ayrica niyetim bir &lt;em&gt;manual&lt;/em&gt; yazmak değil. Bu yazıda amacım kendi tecrübelerimden faydalanarak tamamen pratik açıdan reproducible research’u kısaca anlatmaya calişmak (&lt;a href=&#34;http://reproducibleresearch.net&#34;&gt;daha ayrıntılı bilgi için tıklayin&lt;/a&gt;). Turkce yazmamın amacı da bu konulardaki Türkçe materyallerin eksikliği.&lt;/p&gt;
+&lt;p&gt;Ilk olarak data analysis’i hangi &lt;em&gt;software&lt;/em&gt; de yapacagim sorusu karsimiza geliyor. Bir istatistikci oldugum icin buna verecegim cevap tabiki &lt;a href=&#34;https://www.r-project.org&#34;&gt;&lt;strong&gt;R&lt;/strong&gt;&lt;/a&gt; (since &lt;strong&gt;R&lt;/strong&gt; is made by statisticians for statisticians!). Ikinci olarak &lt;em&gt;typesetting&lt;/em&gt; programimizi belirlememiz gerekiyor, raporu/makaleyi/tezi yazacagimiz veya sunumu hazirlayacagimiz program. Buna cevabimiz ise &lt;em&gt;LaTeX&lt;/em&gt; olabilir. Fakat diger guclu bir alternatif ise &lt;a href=&#34;https://daringfireball.net/projects/markdown/&#34;&gt;&lt;em&gt;Markdown&lt;/em&gt;&lt;/a&gt;. Markdown ile hem pdf, word veya HTML output elde edebiliyoruz. Bu yazida &lt;em&gt;Markdown&lt;/em&gt; kullanacagiz, cünkü bize Ve ucuncu olarak bize uygun bir &lt;em&gt;text editor&lt;/em&gt; gerekli, bunun icin de &lt;strong&gt;Rstudio&lt;/strong&gt; yu kullaniyoruz. Sonunda sihirli dokunusu yapacak yani reproducible research u mumkun kilacak olan program (aslinda bir &lt;strong&gt;R&lt;/strong&gt; &lt;em&gt;package&lt;/em&gt;): &lt;strong&gt;knitr&lt;/strong&gt;. Tam burada &lt;strong&gt;knitr&lt;/strong&gt; in babasi olan programi hatirlatmam gerekiyor, saygi geregi &lt;strong&gt;Sweave&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Dolayisiyla &lt;strong&gt;knitr&lt;/strong&gt; ile birlikte bu uc program, &lt;strong&gt;R&lt;/strong&gt; + Markdown + &lt;strong&gt;Rstudio&lt;/strong&gt;, bize reproducible research yapabilmemiz icin yeterli ve bu arada hepsi de free software. Kisacasi bir tek &lt;em&gt;document&lt;/em&gt; a hem LaTeX kodu hem de &lt;strong&gt;R&lt;/strong&gt; kodunu yaziyorsunuz (.Rmd file) ve sonrasinda &lt;em&gt;compile&lt;/em&gt; edip PDF inize kavusmus oluyorsunuz. Aslina bakarsaniz, &lt;strong&gt;knitr&lt;/strong&gt; kullanarak reproducible research yapabilmemiz icin bu uc programin hicbiri farz degil, alternatif kombinasyonlara en sonda deginecegim. Rstudio nun sagladigi en onemli fayda ise &lt;em&gt;compile to PDF&lt;/em&gt; adimini sadece tek bir tusa indirgiyor olusu.&lt;/p&gt;
+&lt;div id=&#34;basit-bir-ornek&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Basit bir ornek&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Base R&lt;/em&gt; dan &lt;em&gt;cars&lt;/em&gt; adli &lt;em&gt;dataset&lt;/em&gt; i kullanacagiz. Bu dataset farkli arabalarin hizlari (&lt;em&gt;speed variable&lt;/em&gt;) ve her bir arabanin durmak icin gerekli mesafelerini (&lt;em&gt;dist variable&lt;/em&gt;) iceriyor. Bu datayi analiz etmek icin &lt;em&gt;linear regression&lt;/em&gt; kullaniyoruz ve gerekli &lt;strong&gt;R&lt;/strong&gt; kodu asagidaki gibi gosterebiliriz.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;fit &amp;lt;- lm(dist ~ speed, data = cars) # linear regression &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Tabii sonuclari -mesela bu ornekte &lt;em&gt;coefficients&lt;/em&gt;- bir tabloda gostermek isteyebiliriz. Bunun icin de &lt;strong&gt;xtable&lt;/strong&gt; (bir &lt;strong&gt;R&lt;/strong&gt; package) bize yardimci olacak. Asagidaki &lt;strong&gt;R&lt;/strong&gt; kodu bize gerekli HTML kodu veriyor, ve compile ettikten sonra da Tablo 1’i elde ediyoruz.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(knitr)
+coefs &amp;lt;- matrix(coef(fit))
+rownames(coefs) &amp;lt;- c(&amp;quot;Intercept&amp;quot;, &amp;quot;speed&amp;quot;)
+kable(coefs, label = &amp;quot;tab:coefs&amp;quot;,
+      digits = 2,
+      row.names = TRUE, 
+      col.names = &amp;quot;Estimate&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Estimate&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;Intercept&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-17.58&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;speed&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3.93&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Normal sartlarda tabloyu yaratan &lt;strong&gt;R&lt;/strong&gt; kodu okuyucuya gostermeye gerek yok fakat ben ornek olmasi acisindan gosteriyorum.&lt;/p&gt;
+&lt;p&gt;Simdi ise &lt;em&gt;data visualization&lt;/em&gt;. Asagidaki &lt;strong&gt;R&lt;/strong&gt; kod ile Figure 1’i elde ediyoruz.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
+ggplot(cars, aes(x = speed, y = dist)) + geom_point() +
+  geom_abline(intercept = coef(fit)[1], slope = coef(fit)[2])&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2016-10-27-nas%C4%B1l-reproducible-research-yapar%C4%B1m_files/figure-html/figure-1.png&#34; width=&#34;384&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Bu ornekte damaginiza &lt;strong&gt;knitr&lt;/strong&gt; kullanimindan bir tat calmayi amacladim.&lt;/p&gt;
+&lt;p&gt;Benim ugrastigim problemlerde &lt;strong&gt;knitr&lt;/strong&gt; in saglamis oldugu cok onemli diger bir fayda ise &lt;em&gt;cache&lt;/em&gt; ozelligi. Simdi farz edin ki analiziniz yukaridaki gibi bir simple linear regression degil, mesela simulasyon yapiyorsunuz veya &lt;em&gt;bootstrapping&lt;/em&gt;. Dolayisiyla islem saatler surebilir. Bu durumda &lt;strong&gt;knitr&lt;/strong&gt; in cache ozelligini kullanabilirsiniz, ilk compilation da analiz yapilir (artik ne kadar suruyorsa) ve &lt;strong&gt;knitr&lt;/strong&gt; sizin icin outputu kaydeder. Sonraki compilationlarda ise knitr kaydedilmis outputu kullanir!&lt;/p&gt;
+&lt;p&gt;Bu arada &lt;strong&gt;knitr&lt;/strong&gt;’i her turlu farkli LaTeX &lt;em&gt;documentclass&lt;/em&gt; icin kullanabilirsiniz, mesela rapor yazarken veya sunumunuzu hazirlarken. Diyelim ki sunumunuzdaki bir analizde kucuk bir degisiklik yapmak istiyorsunuz, artik cok kolay ve pratik bir sekilde bunu yapabilirsiniz.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;kapanis&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Kapanis&lt;/h2&gt;
+&lt;p&gt;Daha once soyledigim gibi &lt;strong&gt;knitr&lt;/strong&gt; bayagi flexible. Mesela LaTeX kullanmak istemiyorsaniz, &lt;strong&gt;R&lt;/strong&gt; + &lt;strong&gt;Markdown&lt;/strong&gt; + &lt;strong&gt;Rstudio&lt;/strong&gt; da gayet guzel bir alternatif sizin icin. Boylece HTML ve ya Word output da elde edebilirsiniz, PDF in yaninda (ozellikle LaTeX bilmiyorsaniz). Veyahut &lt;strong&gt;R&lt;/strong&gt; yerine &lt;strong&gt;Phyton&lt;/strong&gt;, &lt;strong&gt;SAS&lt;/strong&gt;, &lt;strong&gt;Ruby&lt;/strong&gt; kullanabilirsiniz, &lt;strong&gt;Rstudio&lt;/strong&gt; yerine &lt;strong&gt;LyX&lt;/strong&gt;, &lt;strong&gt;Texmaker&lt;/strong&gt; veya &lt;strong&gt;Emacs&lt;/strong&gt; kullanabilirsiniz. Fakat bence &lt;strong&gt;Rstudio&lt;/strong&gt; dan sasmamak en mantiklisi cunku Rstudio knitr icin &lt;em&gt;build-in support&lt;/em&gt; a sahip. Muhtemelen bunun onemli bir nedeni &lt;strong&gt;knitr&lt;/strong&gt; in yaraticisinin bir &lt;strong&gt;Rstudio&lt;/strong&gt; calisani olmasi. Hepsi ve daha fazlasi icin &lt;a href=&#34;http://yihui.name/knitr/&#34;&gt;&lt;strong&gt;knitr&lt;/strong&gt; in websitesine bakabilirsiniz&lt;/a&gt;. Son olarak, bu yazinin kendisi de &lt;strong&gt;knitr&lt;/strong&gt; kullanarak reproducible research’e bir ornek, source code’a &lt;a href=&#34;https://raw.githubusercontent.com/gunhanb/blog/gh-pages/_source/2016-10-27-reproducible-research.Rmd&#34;&gt;buradan ulasabilirsiniz&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A misunderstanding about life expectancy</title>
+      <link>/post/a-misunderstanding-about-life-expectancy/</link>
+      <pubDate>Wed, 08 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/post/a-misunderstanding-about-life-expectancy/</guid>
+      <description>&lt;p&gt;Here I want to talk about a very common mistake when it comes to &lt;em&gt;life expectancy&lt;/em&gt; and its interpretation. In one of my epidemiology courses, the lecturer showed the below Figure.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/post/2016-06-08-a-misunderstanding-about-life-expectancy_files/figure-html/LifeEx.png&#34; /&gt;
+
+&lt;/div&gt;
+&lt;p&gt;I am sure you also see graphs like that not this particular one (I mean for Switzerland) but maybe similar. OK, we see a very clear trend that life expectancy increasing in the last century. It was even doubled, right? That’s very nice. And we also see that there is clear difference between men and women but it is not my issue here.&lt;/p&gt;
+&lt;p&gt;I am more interested in the increase of the life expectancy. To understand it better first important question is, as always, why. In other words what is the possible &lt;em&gt;explanation&lt;/em&gt;. And second question, what can we guess about the life expectancy of 2100 for example, so the &lt;em&gt;prediction&lt;/em&gt;. My lecturer gave the answer for the first question: the remarkable achievement of &lt;em&gt;modern medicine&lt;/em&gt;. And so by this logic, he said that the life expectancy probably may continue to increase as we had in the last century.&lt;/p&gt;
+&lt;p&gt;Now, let’s consider not 1900 but long before, for instance think about our ancestors, hunter gatherers. What we expect is that they may have similar (or even low say 30?) life expectancy like 1900, right? So lets think from a hunter gatherer perspective and see this below Figure for this purpose.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/post/2016-06-08-a-misunderstanding-about-life-expectancy_files/figure-html/Foragers.png&#34; /&gt;
+
+&lt;/div&gt;
+&lt;p&gt;Our ancestors did not get it why they could not survive after 30. But the achievements of the medicine fully can explain it?&lt;/p&gt;
+&lt;p&gt;At this point, to understand better, we need to look at the precise definition of the life expectancy (from Wikipedia):&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The mean length of life of a hypothetical cohort (all individuals born in a given year) assumed to be exposed since birth until death of all their member to the mortality rate observed at a given year.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;OK, the definition seems unnecessarily complicated, but important point is that life expectancy is just a mean. So it is one type of statistical measure. But to gain more insight about the data maybe it is better to look more than just mean values. Unfortunately, I don’t have the real data, so lets just simulate some data for our purpose and plot it:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2016-06-08-a-misunderstanding-about-life-expectancy_files/figure-html/plot1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Now in the above Figure, you see all data points (the mean length of life bla bla bla &lt;em&gt;per person&lt;/em&gt;) as well as the life expectancy as red crosses (or let’s call it mean values). But the problem is that in reality data do not look like that Figure, but instead more look like the below Figure.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2016-06-08-a-misunderstanding-about-life-expectancy_files/figure-html/plot2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;So lets compare those two Figures which are based on two different simulated datasets. Firstly the red crosses are exactly has the same values (monotonically increasing from a value close to 40 to a value close to 80). That implies mean values are the same. But in the second Figure, there are many data points very close to zero values. But the second set of data points of each given year (values which are far away to zero) seem to not increasing much. So what does that mean?. Those very small data points corresponding to children who died at very early ages (&lt;em&gt;infant mortality&lt;/em&gt;). And as you can see, with decreasing of the infant mortality, the mean values are going away from zero even if the adult mortality stays constant.&lt;/p&gt;
+&lt;p&gt;That means, back then, your expected value of length of life is very low when you are child. But once you reach the adulthood then it is not that low like 30. That’s why even in the times when the life expectancy is 30, you can see many people of high ages like 60.&lt;/p&gt;
+&lt;p&gt;OK, I exaggerated a little bit to make the point, and of course the advancement of modern medicine (better medications etc.) is a very important explanation of the increase of life expectancy. But still I think considering only the mean values can be misleading since infant mortality has possibly more effect on the increase of life expectancy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Network meta-analysis with integrated nested Laplace approximations</title>
+      <link>/publication/thesis/</link>
+      <pubDate>Mon, 15 Feb 2016 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/thesis/</guid>
       <description></description>
     </item>
     

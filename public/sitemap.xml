@@ -14,8 +14,26 @@
     
     <url>
     
-      <loc>/post/2015-07-23-randomization/</loc>
-      <lastmod>2017-04-06T21:13:14-05:00</lastmod>
+      <loc>/post/the-art-of-randomization/</loc>
+      <lastmod>2017-04-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/plane-crashes-and-household-furniture/</loc>
+      <lastmod>2017-02-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/talk/nmainla_ibs_2018/</loc>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -32,7 +50,16 @@
     
     <url>
     
-      <loc>/talk/nmainla_ibs_2018/</loc>
+      <loc>/talk/tite_pk_ibc_2018/</loc>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/talk/ma_wip_psi_2018/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
@@ -68,8 +95,45 @@
     
     <url>
     
-      <loc>/project/ma-wip/</loc>
-      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
+      <loc>/post/confounding-or-the-relationship-between-shoe-size-and-salary/</loc>
+      <lastmod>2016-12-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/nas%C4%B1l-reproducible-research-yapar%C4%B1m/</loc>
+      <lastmod>2016-10-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/a-misunderstanding-about-life-expectancy/</loc>
+      <lastmod>2016-06-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/thesis/</loc>
+      <lastmod>2016-02-15T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication_types/0/</loc>
+      <lastmod>2016-02-15T00:00:00+01:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -106,38 +170,8 @@
     
     <url>
     
-      <loc>/tags/epidemiology/</loc>
-      <lastmod>2017-04-06T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/categories/epidemiology/</loc>
-      <lastmod>2017-04-06T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/meta-analysis/</loc>
-      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/project/</loc>
-      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
+      <lastmod>2016-06-08T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -147,7 +181,27 @@
     <url>
     
       <loc>/publication_types/</loc>
-      <lastmod>2017-11-29T00:00:00+01:00</lastmod>
+      <lastmod>2016-02-15T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/r/</loc>
+      <lastmod>2016-10-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/statistics/</loc>
+      <lastmod>2017-02-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -158,6 +212,16 @@
     
       <loc>/tags/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/turkish/</loc>
+      <lastmod>2016-10-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
