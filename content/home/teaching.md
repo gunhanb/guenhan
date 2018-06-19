@@ -15,6 +15,6 @@ weight = 60
 
 +++
 
-I am a teaching instructor for following courses (Fall 2018 ) at the University of Göttingen:
+I am a teaching assistant for following courses (Fall 2018 ) at the University of Göttingen:
 
 - Introduction to Statistics for MSc students in Neuroscience
