@@ -1,2 +1,2 @@
 # guenhan
-Personal website of Burak Kuersad Guenhan: https://bkguenhan.netlify.com/
+Personal website of Burak Kuersad Guenhan: https://bkguenhan.rbind.io/
