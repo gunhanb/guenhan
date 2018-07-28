@@ -3,7 +3,7 @@ title: The art of randomization
 author: Burak Kürsad Günhan
 date: '2017-04-06'
 slug: the-art-of-randomization
-categories: []
+categories: [biostatistics]
 tags: []
 header:
   caption: ''
@@ -15,7 +15,7 @@ header:
 <script type="text/javascript" async
 src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
-<p>We all know that drugs are used as treatments for diseases, right? But did you think about how, scientifically, it is shown that drugs actually benefits and but not harms? Before my biostats education, I was naively imagining that since we know what causes the disease and which part of the body it affects etc., scientist are producing chemicals to cure the diseases. But, of course, this was so naive and human body is so complicated, and mostly we don’t know even the causes of the diseases. Then, I learned that, <em>clinical studies</em> are conducted to show whether a drug works or not <a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>.</p>
+<p>We all know that drugs are used as treatments for diseases, right? But did you think about how, scientifically, it is shown that drugs actually benefits and but not harms? Before my biostats education, I was naively imagining that since we know what causes the disease and which part of the body it affects etc., scientist are producing chemicals to cure the diseases. But, of course, this was so naive and human body is so complicated, and mostly we don’t know even the causes of the diseases. Then, I learned that, <em>clinical studies</em> are conducted to show whether a drug works or not <a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>.</p>
 <p>Let`s imagine that if anybody who developed a disease die without exception (in other words outcome of disease is <em>invariable</em>). Then, if we give our drug to one diseased person, and to see that he/she lives, that would be an indication for the value of drug. But we know that the outcome of disease, patients and their reaction to drugs are all vary.</p>
 <p>So, we need to give the drug to many patients, and then analyse the results. But do we need a representative sample of the patients from whole population (for example from one country) to obtain unbiased results? Finding such people would be very hard. But still, let say we found 100 people who are representative, and give them drugs. By the way, let assume that our aim is reducing the blood pressure, so we took the number of diastolic blood pressure from 100 people before they receive the drug (<em>baseline</em>) and after they receive it (<em>follow-up</em>). So, below figure is the difference of the number of diastolic blood pressure from baseline to follow-up:</p>
 <p><img src="/post/2017-04-06-the-art-of-randomization_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
@@ -25,19 +25,18 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 <p><img src="/post/2017-04-06-the-art-of-randomization_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 <p>One of the coolest thing with RCTs is that we don’t need any representative sample from whole population. Let me explain why.</p>
 <p>Below you see a diagram which explains how patients are entered to an RCT.</p>
-<div class="figure">
-<img src="/post/2017-04-06-the-art-of-randomization_files/figure-html/RCT.png" />
-
-</div>
+<p><img src="/post/2017-04-06-the-art-of-randomization_files/figure-html/RCT.png" /></p>
 <p>At the top you see population P. We want to know whether drug works in population P. But then, we have some patients who are eligible to trial (Sample A), lastly we have Sample B which includes the eligible patients who give their consent to enter the RCT (Treatment 1 is control group and Treatment 2 is treatment group).</p>
 <p>Let say, the outcome measured on each individual (for example blood pressure) is a random variable <span class="math inline">\(X\)</span>. Say <span class="math inline">\(E(X_{C}) = \mu\)</span> (if we do not give any drug to sample B) and <span class="math inline">\(E(X_{T}) = \mu + a\)</span> where <span class="math inline">\(a\)</span> is <em>true</em> treatment effect (if we give the drug to sample B). And let say, <span class="math inline">\(\bar{X}_{C}\)</span> and <span class="math inline">\(\bar{X}_{T}\)</span> are mean of control group and treatment group (after randomization).</p>
-<p>Then, <span class="math inline">\(E(X_{C}) = E(\bar{X}_{C}) = \mu\)</span> and <span class="math inline">\(E(X_{T}) = E(\bar{X}_{T}) = \mu + a\)</span>, since both control group and treatment groups are random sample from Sample B. Then, <span class="math inline">\(E(\bar{X}_{T}) - E(\bar{X}_{C}) = a\)</span>. Statistically speaking we have an <em>unbiased</em> estimate of treatment effect <span class="math inline">\(a\)</span>. As you see, we did not care that sample B (or A) is a random sample from population P. Even if <span class="math inline">\(E(X_{C})\)</span> in population P is very different from <span class="math inline">\(\mu\)</span>, our estimate of <span class="math inline">\(a\)</span> is still unbiased.</p>
+<p>Then, <span class="math inline">\(E(X_{C}) = E(\bar{X}_{C}) = \mu\)</span> and <span class="math inline">\(E(X_{T}) = E(\bar{X}_{T}) = \mu + a\)</span>, since both control group and treatment groups are random sample from Sample B. Then, <span class="math inline">\(E(\bar{X}_{T}) - E(\bar{X}_{C}) = a\)</span>. Statistically speaking we have an <em>unbiased</em> estimate of treatment effect <span class="math inline">\(a\)</span>.
+As you see, we did not care that sample B (or A) is a random sample from population P. Even if <span class="math inline">\(E(X_{C})\)</span> in population P is very different from <span class="math inline">\(\mu\)</span>, our estimate of <span class="math inline">\(a\)</span> is still unbiased.</p>
 <p>Another important feature of a RCT is that by design, possible confounding factors are controlled. This is the crucial difference between observational studies and RCTs. Because of these and some other important reasons, RCTs are generally considered as gold standard. But sometimes it is just not possible to conduct an RCT. For example, you wonder if there is an association between smoking and lung cancer. So what you need is that finding <span class="math inline">\(N\)</span> people, and after randomization you need to force half of them to smoke, right? But of course this is completely unethical. So in similar scenarios, and also because RCTs are more costly than observation studies, we have to make use of observational studies. Therefore, in general, when we want to generalize our results from the sample to target population, we either need the randomization (Randomized clinical trial) or representative sample (observational studies).</p>
 <p>Lastly, there is another source of evidence which is regarded even more reliable than an RCT, and I will try to explain it in the next post.</p>
-<p>Note: I took the diagram and definitions from the book: “Introduction to Randomized Controlled Clinical Trials” (Second edition) written by John N. S. Matthews.</p>
+<p>Note: I took the diagram and definitions from the book: “Introduction to Randomized
+Controlled Clinical Trials” (Second edition) written by John N. S. Matthews.</p>
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>Actually, a better question may be what is the magnitude of the treatment effect and what is the uncertainty attached to it, but this is not the main point of the post.<a href="#fnref1">↩</a></p></li>
+<li id="fn1"><p>Actually, a better question may be what is the magnitude of the treatment effect and what is the uncertainty attached to it, but this is not the main point of the post.<a href="#fnref1" class="footnote-back">↩</a></p></li>
 </ol>
 </div>

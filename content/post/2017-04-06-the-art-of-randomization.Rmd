@@ -3,7 +3,7 @@ title: The art of randomization
 author: Burak Kürsad Günhan
 date: '2017-04-06'
 slug: the-art-of-randomization
-categories: []
+categories: [biostatistics]
 tags: []
 header:
   caption: ''
