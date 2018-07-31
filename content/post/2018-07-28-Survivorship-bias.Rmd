@@ -55,11 +55,12 @@ Bu kavrama "survivorship bias" denilmesinin sebebi de tam olarak bu. Sadece haya
 > The cemetery of failed restaurants is very silent.
 
 
-Ve 90'ların şarkılarına geri dönecek olursak. Aslında 90'ları yasamıs insanlar olarak hic de "Aaa ne kadar da güzel yillar, şarkılar çok süper" modunda yaşamıyorduk değil mi? Ama 2018 yılında youtube'a girip 90'lar şarkılarını aratırsan, zaten zamaninda popüler olanlar ("kaliteli olanlar") karşına çikacaktır, gayet doğal olarak. Ama işin doğrusu o zaman da gayet dandik şarkılar yok degildi :) Veya mimari açıdan da aynı şekilde. Zaten dayanıklı olanlar veya sanat değeri yüksek olanlar günümüze ulaşmış. Bunun en çarpıcı örneklerinden biri Cologne Cathedral. Almanya'nın Köln şehrinde ikinci dünya savaşı sırasında tüm şehir bombardımanla dümdüz edilmiş olmasına rağmen, şehrin tarihi kilisesi tamamen yıkılana kadar bombalanmamış, dolayısıyla ayakta kalabilmiş.
+Ve 90'ların şarkılarına geri dönecek olursak. Aslında 90'ları yasamıs insanlar olarak hic de "Aaa ne kadar da güzel yillar, şarkılar çok süper" modunda yaşamıyorduk değil mi? Ama 2018 yılında youtube'a girip 90'lar şarkılarını aratırsan, zaten zamaninda popüler olanlar ("kaliteli olanlar") karşına çikacaktır, gayet doğal olarak. Ama işin doğrusu o zaman da gayet dandik şarkılar yok degildi :) Veya mimari açıdan da aynı şekilde. Zaten dayanıklı olanlar veya sanat değeri yüksek olanlar günümüze ulaşmış. Bunun en çarpıcı örneklerinden biri Cologne Cathedral. Almanya'nın Köln şehrinde ikinci dünya savaşı sırasında tüm şehir bombardımanla dümdüz edilmiş olmasına rağmen, şehrin tarihi kilisesi tamamen yıkılana kadar bombalanmamış, dolayısıyla ayakta kalabilmiş [^3].
+
+[^3]: Wikipedia'dan alınmıştır.
 
 
-
-![](/post/2018-07-28-Survivorship-bias_files/figure-html/dom.png)
+![](/post/2018-07-28-Survivorship-bias_files/figure-html/dom.png) 
 
 
 
