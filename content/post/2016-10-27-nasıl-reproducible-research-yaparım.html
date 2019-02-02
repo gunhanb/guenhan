@@ -54,8 +54,8 @@ kable(coefs, label = &quot;tab:coefs&quot;,
 <p>Normal sartlarda tabloyu yaratan <strong>R</strong> kodu okuyucuya gostermeye gerek yok fakat ben ornek olmasi acisindan gosteriyorum.</p>
 <p>Simdi ise <em>data visualization</em>. Asagidaki <strong>R</strong> kod ile Figure 1’i elde ediyoruz.</p>
 <pre class="r"><code>library(ggplot2)
-ggplot(cars, aes(x = speed, y = dist)) + geom_point() +
-  geom_abline(intercept = coef(fit)[1], slope = coef(fit)[2])</code></pre>
+ggplot(cars, aes(x = speed, y = dist)) + geom_point() + 
+    geom_abline(intercept = coef(fit)[1], slope = coef(fit)[2])</code></pre>
 <p><img src="/post/2016-10-27-nas%C4%B1l-reproducible-research-yapar%C4%B1m_files/figure-html/figure-1.png" width="384" /></p>
 <p>Bu ornekte damaginiza <strong>knitr</strong> kullanimindan bir tat calmayi amacladim.</p>
 <p>Benim ugrastigim problemlerde <strong>knitr</strong> in saglamis oldugu cok onemli diger bir fayda ise <em>cache</em> ozelligi. Simdi farz edin ki analiziniz yukaridaki gibi bir simple linear regression degil, mesela simulasyon yapiyorsunuz veya <em>bootstrapping</em>. Dolayisiyla islem saatler surebilir. Bu durumda <strong>knitr</strong> in cache ozelligini kullanabilirsiniz, ilk compilation da analiz yapilir (artik ne kadar suruyorsa) ve <strong>knitr</strong> sizin icin outputu kaydeder. Sonraki compilationlarda ise knitr kaydedilmis outputu kullanir!</p>

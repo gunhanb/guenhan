@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 on Burak Kürsad Günhan</title>
+    <link>/publication_types/3/</link>
+    <description>Recent content in 3 on Burak Kürsad Günhan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018, Burak Kürsad Günhan</copyright>
+    <lastBuildDate>Fri, 23 Nov 2018 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Phase I dose-escalation trials with more than one dosing regimen</title>
+      <link>/publication/titepk/</link>
+      <pubDate>Fri, 23 Nov 2018 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/titepk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meta-analysis of few studies involving rare events</title>
+      <link>/publication/metastan/</link>
+      <pubDate>Wed, 12 Sep 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/metastan/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

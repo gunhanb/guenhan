@@ -3,7 +3,7 @@ title = "Network meta-analysis with integrated nested Laplace approximations"
 date = 2016-02-15T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["BK Günhan"]
+authors = ["Burak Kürsad Günhan"]
 
 # Publication type.
 # Legend:
@@ -38,18 +38,7 @@ projects = []
 
 # Links (optional).
 url_pdf = "https://www.math.uzh.ch/li/index.php?file&key1=38005"
-url_preprint = "#"
-url_code = "#"
-url_dataset = "#"
-url_project = "#"
-url_slides = "#"
-url_video = "#"
-url_poster = "#"
-url_source = "#"
 
-# Custom links (optional).
-#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Custom Link", url = "http://example.org"}]
 
 # Does the content use math formatting?
 math = true

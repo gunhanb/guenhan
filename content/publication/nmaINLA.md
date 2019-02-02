@@ -3,7 +3,7 @@ title = "A design-by-treatment interaction model for network meta-analysis and m
 date = 2017-11-29T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["BK Günhan", "T Friede", "L Held"]
+authors = ["Burak Kürsad Günhan", "Tim Friede", "Leonhard Held"]
 
 # Publication type.
 # Legend:
@@ -14,7 +14,7 @@ authors = ["BK Günhan", "T Friede", "L Held"]
 # 4 = Technical report
 # 5 = Book
 # 6 = Book chapter
-publication_types = ["1"]
+publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
 publication = "In *Research Synthesis Methods*"
@@ -38,18 +38,11 @@ projects = []
 
 # Links (optional).
 url_pdf = "https://onlinelibrary.wiley.com/doi/epdf/10.1002/jrsm.1285"
-url_preprint = "#"
-url_code = "#"
-url_dataset = "#"
-url_project = "#"
-url_slides = "#"
-url_video = "#"
-url_poster = "#"
-url_source = "#"
+url_code = "https://CRAN.R-project.org/package=nmaINLA"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Custom Link", url = "http://example.org"}]
+#url_custom = [{name = "Custom Link", url = "http://example.org"}]
 
 # Does the content use math formatting?
 math = true

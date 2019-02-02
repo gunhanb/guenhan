@@ -11,12 +11,43 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Phase I dose-escalation trials with more than one dosing regimen</title>
+      <link>/publication/titepk/</link>
+      <pubDate>Fri, 23 Nov 2018 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/titepk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent advances in methodology for clinical trials in small populations: the InSPiRe project</title>
+      <link>/publication/orphan/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/orphan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meta-analysis of few studies involving rare events</title>
+      <link>/publication/metastan/</link>
+      <pubDate>Wed, 12 Sep 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/metastan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>90&#39;lar hep kalite veya &#34;survivorship bias&#34;</title>
       <link>/post/survivorship-bias/</link>
       <pubDate>Sat, 28 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/survivorship-bias/</guid>
-      <description>&lt;p&gt;Önce bazı youtube yorumları okuyalım. Başlığa ilham veren yorum:&lt;/p&gt;
+      <description>&amp;lt;meta property=“og:title” content=“90’lar hep kalite veya”survivorship bias&amp;quot;&amp;quot; /&amp;gt;
+&lt;meta property=&#34;og:description&#34; content=&#34;Gerceketen müzigimiz kötüye mi gidiyor?&#34; /&gt;
+&lt;meta property=&#34;og:url&#34; content=&#34;http://example.com/my_article.html&#34; /&gt;
+&lt;meta property=&#34;og:image&#34; content=&#34;/post/2018-07-28-Survivorship-bias_files/figure-html/plane.png&#34; /&gt;
+&lt;p&gt;Önce bazı youtube yorumları okuyalım. Başlığa ilham veren yorum:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2018-07-28-Survivorship-bias_files/figure-html/youtube1.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Geçmiş özlemini daha açıklayıcı bi yorum&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2018-07-28-Survivorship-bias_files/figure-html/youtube2.png&#34; /&gt;&lt;/p&gt;
@@ -154,11 +185,38 @@ src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHT
     </item>
     
     <item>
+      <title>Meta-analysis of few studies involving rare events</title>
+      <link>/talk/ma_wip_dagstat_2019/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/talk/ma_wip_dagstat_2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meta-analysis of few studies involving rare events</title>
+      <link>/talk/ma_wip_go%CC%88ttingen_2019/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/talk/ma_wip_go%CC%88ttingen_2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Meta-analysis of rare events with few studies</title>
       <link>/talk/ma_wip_psi_2018/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
       <guid>/talk/ma_wip_psi_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phase I dose-escalation trials with more than one dosing regimen</title>
+      <link>/talk/titepk_ibsdr_2018/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/talk/titepk_ibsdr_2018/</guid>
       <description></description>
     </item>
     
@@ -232,8 +290,8 @@ kable(coefs, label = &amp;quot;tab:coefs&amp;quot;,
 &lt;p&gt;Normal sartlarda tabloyu yaratan &lt;strong&gt;R&lt;/strong&gt; kodu okuyucuya gostermeye gerek yok fakat ben ornek olmasi acisindan gosteriyorum.&lt;/p&gt;
 &lt;p&gt;Simdi ise &lt;em&gt;data visualization&lt;/em&gt;. Asagidaki &lt;strong&gt;R&lt;/strong&gt; kod ile Figure 1’i elde ediyoruz.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
-ggplot(cars, aes(x = speed, y = dist)) + geom_point() +
-  geom_abline(intercept = coef(fit)[1], slope = coef(fit)[2])&lt;/code&gt;&lt;/pre&gt;
+ggplot(cars, aes(x = speed, y = dist)) + geom_point() + 
+    geom_abline(intercept = coef(fit)[1], slope = coef(fit)[2])&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2016-10-27-nas%C4%B1l-reproducible-research-yapar%C4%B1m_files/figure-html/figure-1.png&#34; width=&#34;384&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Bu ornekte damaginiza &lt;strong&gt;knitr&lt;/strong&gt; kullanimindan bir tat calmayi amacladim.&lt;/p&gt;
 &lt;p&gt;Benim ugrastigim problemlerde &lt;strong&gt;knitr&lt;/strong&gt; in saglamis oldugu cok onemli diger bir fayda ise &lt;em&gt;cache&lt;/em&gt; ozelligi. Simdi farz edin ki analiziniz yukaridaki gibi bir simple linear regression degil, mesela simulasyon yapiyorsunuz veya &lt;em&gt;bootstrapping&lt;/em&gt;. Dolayisiyla islem saatler surebilir. Bu durumda &lt;strong&gt;knitr&lt;/strong&gt; in cache ozelligini kullanabilirsiniz, ilk compilation da analiz yapilir (artik ne kadar suruyorsa) ve &lt;strong&gt;knitr&lt;/strong&gt; sizin icin outputu kaydeder. Sonraki compilationlarda ise knitr kaydedilmis outputu kullanir!&lt;/p&gt;
@@ -244,42 +302,6 @@ ggplot(cars, aes(x = speed, y = dist)) + geom_point() +
 &lt;p&gt;Daha once soyledigim gibi &lt;strong&gt;knitr&lt;/strong&gt; bayagi flexible. Mesela LaTeX kullanmak istemiyorsaniz, &lt;strong&gt;R&lt;/strong&gt; + &lt;strong&gt;Markdown&lt;/strong&gt; + &lt;strong&gt;Rstudio&lt;/strong&gt; da gayet guzel bir alternatif sizin icin. Boylece HTML ve ya Word output da elde edebilirsiniz, PDF in yaninda (ozellikle LaTeX bilmiyorsaniz). Veyahut &lt;strong&gt;R&lt;/strong&gt; yerine &lt;strong&gt;Phyton&lt;/strong&gt;, &lt;strong&gt;SAS&lt;/strong&gt;, &lt;strong&gt;Ruby&lt;/strong&gt; kullanabilirsiniz, &lt;strong&gt;Rstudio&lt;/strong&gt; yerine &lt;strong&gt;LyX&lt;/strong&gt;, &lt;strong&gt;Texmaker&lt;/strong&gt; veya &lt;strong&gt;Emacs&lt;/strong&gt; kullanabilirsiniz. Fakat bence &lt;strong&gt;Rstudio&lt;/strong&gt; dan sasmamak en mantiklisi cunku Rstudio knitr icin &lt;em&gt;build-in support&lt;/em&gt; a sahip. Muhtemelen bunun onemli bir nedeni &lt;strong&gt;knitr&lt;/strong&gt; in yaraticisinin bir &lt;strong&gt;Rstudio&lt;/strong&gt; calisani olmasi. Hepsi ve daha fazlasi icin &lt;a href=&#34;http://yihui.name/knitr/&#34;&gt;&lt;strong&gt;knitr&lt;/strong&gt; in websitesine bakabilirsiniz&lt;/a&gt;. Son olarak, bu yazinin kendisi de &lt;strong&gt;knitr&lt;/strong&gt; kullanarak reproducible research’e bir ornek, source code’a &lt;a href=&#34;https://raw.githubusercontent.com/gunhanb/blog/gh-pages/_source/2016-10-27-reproducible-research.Rmd&#34;&gt;buradan ulasabilirsiniz&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>A misunderstanding about life expectancy</title>
-      <link>/post/a-misunderstanding-about-life-expectancy/</link>
-      <pubDate>Wed, 08 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/post/a-misunderstanding-about-life-expectancy/</guid>
-      <description>&lt;p&gt;Here I want to talk about a very common mistake when it comes to &lt;em&gt;life expectancy&lt;/em&gt; and its interpretation. In one of my epidemiology courses, the lecturer showed the below Figure.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2016-06-08-a-misunderstanding-about-life-expectancy_files/figure-html/LifeEx.png&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;I am sure you also see graphs like that not this particular one (I mean for Switzerland) but maybe similar. OK, we see a very clear trend that life expectancy increasing in the last century. It was even doubled, right? That’s very nice. And we also see that there is clear difference between men and women but it is not my issue here.&lt;/p&gt;
-&lt;p&gt;I am more interested in the increase of the life expectancy. To understand it better first important question is, as always, why. In other words what is the possible &lt;em&gt;explanation&lt;/em&gt;. And second question, what can we guess about the life expectancy of 2100 for example, so the &lt;em&gt;prediction&lt;/em&gt;. My lecturer gave the answer for the first question: the remarkable achievement of &lt;em&gt;modern medicine&lt;/em&gt;. And so by this logic, he said that the life expectancy probably may continue to increase as we had in the last century.&lt;/p&gt;
-&lt;p&gt;Now, let’s consider not 1900 but long before, for instance think about our ancestors, hunter gatherers. What we expect is that they may have similar (or even low say 30?) life expectancy like 1900, right? So lets think from a hunter gatherer perspective and see this below Figure for this purpose.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2016-06-08-a-misunderstanding-about-life-expectancy_files/figure-html/Foragers.png&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Our ancestors did not get it why they could not survive after 30. But the achievements of the medicine fully can explain it?&lt;/p&gt;
-&lt;p&gt;At this point, to understand better, we need to look at the precise definition of the life expectancy (from Wikipedia):&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The mean length of life of a hypothetical cohort (all individuals born in a given year) assumed to be exposed since birth until death of all their member to the mortality rate observed at a given year.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;OK, the definition seems unnecessarily complicated, but important point is that life expectancy is just a mean. So it is one type of statistical measure. But to gain more insight about the data maybe it is better to look more than just mean values. Unfortunately, I don’t have the real data, so lets just simulate some data for our purpose and plot it:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2016-06-08-a-misunderstanding-about-life-expectancy_files/figure-html/plot1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Now in the above Figure, you see all data points (the mean length of life bla bla bla &lt;em&gt;per person&lt;/em&gt;) as well as the life expectancy as red crosses (or let’s call it mean values). But the problem is that in reality data do not look like that Figure, but instead more look like the below Figure.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2016-06-08-a-misunderstanding-about-life-expectancy_files/figure-html/plot2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;So lets compare those two Figures which are based on two different simulated datasets. Firstly the red crosses are exactly has the same values (monotonically increasing from a value close to 40 to a value close to 80). That implies mean values are the same. But in the second Figure, there are many data points very close to zero values. But the second set of data points of each given year (values which are far away to zero) seem to not increasing much. So what does that mean?. Those very small data points corresponding to children who died at very early ages (&lt;em&gt;infant mortality&lt;/em&gt;). And as you can see, with decreasing of the infant mortality, the mean values are going away from zero even if the adult mortality stays constant.&lt;/p&gt;
-&lt;p&gt;That means, back then, your expected value of length of life is very low when you are child. But once you reach the adulthood then it is not that low like 30. That’s why even in the times when the life expectancy is 30, you can see many people of high ages like 60.&lt;/p&gt;
-&lt;p&gt;OK, I exaggerated a little bit to make the point, and of course the advancement of modern medicine (better medications etc.) is a very important explanation of the increase of life expectancy. But still I think considering only the mean values can be misleading since infant mortality has possibly more effect on the increase of life expectancy.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Network meta-analysis with integrated nested Laplace approximations</title>
-      <link>/publication/thesis/</link>
-      <pubDate>Mon, 15 Feb 2016 00:00:00 +0100</pubDate>
-      
-      <guid>/publication/thesis/</guid>
-      <description></description>
     </item>
     
   </channel>

@@ -47,11 +47,11 @@ enableGitInfo = false
 [params]
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
-  color_theme = "default"
+  color_theme = "coffee"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
-  font = "default"
+  font = "classic"
 
   # Your details.
   name = "Burak Kürsad Günhan"
@@ -237,7 +237,7 @@ enableGitInfo = false
   [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
-    link = ""
+    link = "https://scholar.google.com/citations?user=heU5kBEAAAAJ&hl=en"
 
   [[params.social]]
     icon = "github"

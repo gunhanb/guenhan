@@ -15,6 +15,9 @@ weight = 60
 
 +++
 
-I am a teaching assistant for following courses (Fall 2018 ) at the University of Göttingen:
+I did teaching assistantship for following courses at the University of Göttingen:
 
-- Introduction to Statistics for MSc students in Neuroscience
+- Analysis of Time-to-Event Data: Fall 2018 (MSc. in Applied Statistics)
+- Introduction to Statistics: Fall 2018 (MSc. in Neuroscience) 
+- Introduction to Statistics: Fall 2017 (MSc. in Neuroscience) 
+
