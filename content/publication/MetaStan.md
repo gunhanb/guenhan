@@ -1,5 +1,5 @@
 +++
-title = "Meta-analysis of few studies involving rare events"
+title = "Random-effects meta-analysis of few studies involving rare events"
 date = 2018-09-12T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -17,7 +17,7 @@ authors = ["Burak Kürsad Günhan", "Christian Röver", "Tim Friede"]
 publication_types = ["3"]
 
 # Publication name and optional abbreviated version.
-publication = "Submitted for publication"
+publication = "In press"
 publication_short = ""
 
 # Abstract and optional shortened version.
