@@ -1,6 +1,6 @@
 +++
 title = "Random-effects meta-analysis of few studies involving rare events"
-date = 2018-09-12T00:00:00
+date = 2019-07-26T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Burak Kürsad Günhan", "Christian Röver", "Tim Friede"]
@@ -14,10 +14,10 @@ authors = ["Burak Kürsad Günhan", "Christian Röver", "Tim Friede"]
 # 4 = Technical report
 # 5 = Book
 # 6 = Book chapter
-publication_types = ["3"]
+publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "In press"
+publication = "In *Research Synthesis Methods*"
 publication_short = ""
 
 # Abstract and optional shortened version.
@@ -37,7 +37,7 @@ selected = true
 projects = []
 
 # Links (optional).
-url_pdf = "https://arxiv.org/pdf/1809.04407.pdf"
+url_pdf = "https://doi.org/10.1002/jrsm.1370"
 url_code = "https://CRAN.R-project.org/package=MetaStan"
 
 # Custom links (optional).

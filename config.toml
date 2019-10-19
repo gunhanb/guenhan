@@ -68,7 +68,7 @@ enableGitInfo = false
   phone = ""
   skype = ""
   telegram = ""
-  twitter = "burak_guenhan"
+  twitter = ""
   github = "gunhanb"
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
@@ -229,10 +229,6 @@ enableGitInfo = false
     icon_pack = "fa"
     link = "mailto:burakgunhan@gmail.com"
 
-  [[params.social]]
-    icon = "twitter"
-    icon_pack = "fa"
-    link = "//twitter.com/burak_guenhan"
 
   [[params.social]]
     icon = "google-scholar"
