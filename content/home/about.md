@@ -36,6 +36,6 @@ weight = 5
 
 # Biography
 
-Burak Kürsad Günhan is a PhD candidate in Biostatistics at University Medical Center Göttingen under supervision of Prof. Tim Friede. Previously, he did internships as a biostatistician in Roche (Basel - 2016), Novartis (Basel - 2017), and Galapagos (Mechelen, Belgium - 2019).
+Burak Kürsad Günhan is a PhD candidate in Biostatistics at University Medical Center Göttingen under supervision of Prof. Tim Friede. Previously, he did internships as a biostatistician in Roche (Switzerland - 2016), Novartis (Switzerland - 2017), and Galapagos (Belgium - 2019).
 
 

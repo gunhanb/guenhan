@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Random-effects meta-analysis of few studies involving rare events</title>
+      <link>/publication/metastan/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/metastan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Phase I dose-escalation trials with more than one dosing regimen</title>
       <link>/publication/titepk/</link>
       <pubDate>Fri, 23 Nov 2018 00:00:00 +0100</pubDate>
@@ -25,15 +34,6 @@
       <pubDate>Thu, 25 Oct 2018 00:00:00 +0200</pubDate>
       
       <guid>/publication/orphan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Meta-analysis of few studies involving rare events</title>
-      <link>/publication/metastan/</link>
-      <pubDate>Wed, 12 Sep 2018 00:00:00 +0200</pubDate>
-      
-      <guid>/publication/metastan/</guid>
       <description></description>
     </item>
     
