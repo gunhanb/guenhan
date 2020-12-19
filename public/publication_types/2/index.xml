@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 on Burak Kürsad Günhan</title>
-    <link>/publication_types/2/</link>
+    <link>https://bkguenhan.rbind.io/publication_types/2/</link>
     <description>Recent content in 2 on Burak Kürsad Günhan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018, Burak Kürsad Günhan</copyright>
     <lastBuildDate>Fri, 26 Jul 2019 00:00:00 +0200</lastBuildDate>
     
-	<atom:link href="/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bkguenhan.rbind.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Random-effects meta-analysis of few studies involving rare events</title>
-      <link>/publication/metastan/</link>
+      <link>https://bkguenhan.rbind.io/publication/metastan/</link>
       <pubDate>Fri, 26 Jul 2019 00:00:00 +0200</pubDate>
       
-      <guid>/publication/metastan/</guid>
+      <guid>https://bkguenhan.rbind.io/publication/metastan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent advances in methodology for clinical trials in small populations: the InSPiRe project</title>
-      <link>/publication/orphan/</link>
+      <link>https://bkguenhan.rbind.io/publication/orphan/</link>
       <pubDate>Thu, 25 Oct 2018 00:00:00 +0200</pubDate>
       
-      <guid>/publication/orphan/</guid>
+      <guid>https://bkguenhan.rbind.io/publication/orphan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A design-by-treatment interaction model for network meta-analysis and meta-regression with integrated nested Laplace approximations</title>
-      <link>/publication/nmainla/</link>
+      <link>https://bkguenhan.rbind.io/publication/nmainla/</link>
       <pubDate>Wed, 29 Nov 2017 00:00:00 +0100</pubDate>
       
-      <guid>/publication/nmainla/</guid>
+      <guid>https://bkguenhan.rbind.io/publication/nmainla/</guid>
       <description></description>
     </item>
     

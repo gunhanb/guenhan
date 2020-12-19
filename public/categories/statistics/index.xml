@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Statistics on Burak Kürsad Günhan</title>
-    <link>/categories/statistics/</link>
+    <link>https://bkguenhan.rbind.io/categories/statistics/</link>
     <description>Recent content in Statistics on Burak Kürsad Günhan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018, Burak Kürsad Günhan</copyright>
     <lastBuildDate>Sun, 05 Feb 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/statistics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bkguenhan.rbind.io/categories/statistics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Plane crashes and household furniture</title>
-      <link>/post/plane-crashes-and-household-furniture/</link>
+      <link>https://bkguenhan.rbind.io/post/plane-crashes-and-household-furniture/</link>
       <pubDate>Sun, 05 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/plane-crashes-and-household-furniture/</guid>
+      <guid>https://bkguenhan.rbind.io/post/plane-crashes-and-household-furniture/</guid>
       <description>You may wonder what connects the plane crashes to household furniture, right? In both of those situations, there is a probability of dying attached to them. Maybe you already read stuff like 6 Things More Likely To Kill You Than A Plane Crash or this. You may see such news after a plane crash occurred in the world, and basically their take home message is that plane crashes is not that common as we might normally think.</description>
     </item>
     

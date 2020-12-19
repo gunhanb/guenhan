@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Burak Kürsad Günhan</title>
-    <link>/categories/</link>
+    <link>https://bkguenhan.rbind.io/categories/</link>
     <description>Recent content in Categories on Burak Kürsad Günhan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018, Burak Kürsad Günhan</copyright>
     <lastBuildDate>Sat, 28 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bkguenhan.rbind.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Biostatistics</title>
-      <link>/categories/biostatistics/</link>
+      <link>https://bkguenhan.rbind.io/categories/biostatistics/</link>
       <pubDate>Sat, 28 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/biostatistics/</guid>
+      <guid>https://bkguenhan.rbind.io/categories/biostatistics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Epidemiology</title>
-      <link>/categories/epidemiology/</link>
+      <link>https://bkguenhan.rbind.io/categories/epidemiology/</link>
       <pubDate>Wed, 08 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>/categories/epidemiology/</guid>
+      <guid>https://bkguenhan.rbind.io/categories/epidemiology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/categories/r/</link>
+      <link>https://bkguenhan.rbind.io/categories/r/</link>
       <pubDate>Thu, 27 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>/categories/r/</guid>
+      <guid>https://bkguenhan.rbind.io/categories/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Statistics</title>
-      <link>/categories/statistics/</link>
+      <link>https://bkguenhan.rbind.io/categories/statistics/</link>
       <pubDate>Sun, 05 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/statistics/</guid>
+      <guid>https://bkguenhan.rbind.io/categories/statistics/</guid>
       <description></description>
     </item>
     

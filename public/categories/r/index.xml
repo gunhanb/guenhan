@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Burak Kürsad Günhan</title>
-    <link>/categories/r/</link>
+    <link>https://bkguenhan.rbind.io/categories/r/</link>
     <description>Recent content in R on Burak Kürsad Günhan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018, Burak Kürsad Günhan</copyright>
     <lastBuildDate>Thu, 27 Oct 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bkguenhan.rbind.io/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Nasıl &#34;reproducible research&#34; yaparım?</title>
-      <link>/post/nas%C4%B1l-reproducible-research-yapar%C4%B1m/</link>
+      <link>https://bkguenhan.rbind.io/post/nas%C4%B1l-reproducible-research-yapar%C4%B1m/</link>
       <pubDate>Thu, 27 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>/post/nas%C4%B1l-reproducible-research-yapar%C4%B1m/</guid>
+      <guid>https://bkguenhan.rbind.io/post/nas%C4%B1l-reproducible-research-yapar%C4%B1m/</guid>
       <description>Diyelim ki bir arkadaşınız yaklaşık bir sene önce tamamlamış olduğunuz bir research calışmanızdan birşey sordu. Calısmanıza dönüp analizleri tekrar gözden geçirmek, tablo ve figürleri reproduce edebilmeniz ne kadar vaktinizi alacaktır? Veya arkadaşınızı boşverin, sadece kendiniz 2 sene önce hazırlamış olduğunuz sunumdaki resultlarin tekrar elde etmeye calışsanız? Bu süreyi ve olası zahmeti azaltmanın (ve daha fazlası) metodu reproducible research yapmanız!
 Eğer günlük hayattaki calışmalarınızda bir sekilde data analysis yapıyorsaniz, eski yontemler yerine reproducible research kullanmaniz belki biraz daha zahmetli ama uzun vadede kesinlikle daha faydali.</description>
     </item>

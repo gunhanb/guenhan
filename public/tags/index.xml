@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Burak Kürsad Günhan</title>
-    <link>/tags/</link>
+    <link>https://bkguenhan.rbind.io/tags/</link>
     <description>Recent content in Tags on Burak Kürsad Günhan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018, Burak Kürsad Günhan</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bkguenhan.rbind.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Content tagged as &#39;Academic&#39;</title>
-      <link>/tags/academic/</link>
+      <link>https://bkguenhan.rbind.io/tags/academic/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>/tags/academic/</guid>
+      <guid>https://bkguenhan.rbind.io/tags/academic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Turkish</title>
-      <link>/tags/turkish/</link>
+      <link>https://bkguenhan.rbind.io/tags/turkish/</link>
       <pubDate>Thu, 27 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/turkish/</guid>
+      <guid>https://bkguenhan.rbind.io/tags/turkish/</guid>
       <description></description>
     </item>
     
