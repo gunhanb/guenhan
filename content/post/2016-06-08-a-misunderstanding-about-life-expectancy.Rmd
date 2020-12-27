@@ -13,7 +13,7 @@ header:
 
 Here I want to talk about a very common mistake when it comes to *life expectancy* and its interpretation. In one of my epidemiology courses, the lecturer showed the below Figure. 
 
-![](/post/2016-06-08-a-misunderstanding-about-life-expectancy_files/figure-html/LifeEx.png)
+![](/post/2016-06-08-a-misunderstanding-about-life-expectancy_files/figure-html/Life_Ex.png)
 
 
 

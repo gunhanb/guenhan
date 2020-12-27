@@ -15,7 +15,7 @@ copyright = "&copy; 2018, Burak Kürsad Günhan"
 theme = "hugo-academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 preserveTaxonomyNames = true
 paginate = 10
 
@@ -127,7 +127,7 @@ enableGitInfo = false
   #     Enable global source code highlighting?  If false, you can
   #     override it for a particular page in that page's preamble.
   #
-  #     Example: highlight = true
+  #     Example: highlight = tr ue
   #
   #   highlight_languages
   #     Add support for highlighting additional languages. Support for
