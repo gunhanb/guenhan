@@ -24,7 +24,7 @@ publishDate: "2017-01-01T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication:  
@@ -36,7 +36,7 @@ abstract: Phase I dose-escalation trials constitute the first step in investigat
 
 
 # Summary. An optional shortened abstract.
-summary: We developed a method to analysze phase I dose-escalation trials with mutiple schedules.
+summary: We developed a method to analyse phase I dose-escalation trials with multiple schedules.
 
 tags: [Phase I dose-escalation trials, Stan]
 
@@ -48,7 +48,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/abs/1811.09433'
+url_pdf: 'https://doi.org/10.1186/s12874-021-01218-9'
 url_code: 'https://github.com/gunhanb/TITEPK_sequential'
 url_dataset: ''
 url_poster: ''
