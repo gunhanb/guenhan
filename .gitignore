@@ -2,5 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
-blogdown
-public/ # if using Netlify
+/blogdown
+.DS_Store
+Thumbs.db
+/public/
+/resources/
