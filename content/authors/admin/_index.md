@@ -74,6 +74,6 @@ email: "burakgunhan@gmail.com"
 highlight_name: true
 ---
 
-Hello! I am a senior biostatistician at Merck Healthcare KGaA (Darmstadt, Germany). I am working on early phase oncology trials. Previously, I received my PhD in biostatistics from the University of Göttingen.
+Hello! I am a trial statistician at Merck Healthcare KGaA (Darmstadt, Germany). I am working on early phase oncology trials. Previously, I received my PhD in biostatistics from the University of Göttingen.
 
 {{< icon name="download" pack="fas" >}} See my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
