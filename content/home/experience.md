@@ -24,11 +24,11 @@ date_format: Jan 2006
 experience:
   - title: Senior Biostatistician
     company: Merck Healthcare KGaA 
-    company_url: ''
+    company_url: 'https://www.merckgroup.com/en'
     location: Darmstadt, Germany
     date_start: '2021-07-01'
     date_end: ''
-    description: Early phase oncology, phase I dose-escalation trials
+    description: 
 
   - title: Research Associate
     company: University Medical Center Göttingen
