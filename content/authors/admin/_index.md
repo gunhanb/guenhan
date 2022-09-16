@@ -13,7 +13,7 @@ organizations:
 - name: Merck Healthcare KGaA (Darmstadt, Germany)
 
 # Short bio (displayed in user profile at end of posts)
-bio: My interests include Bayesian statistics, phase dose-escalation trials, and meta-analysis.
+bio: My interests include Bayesian statistics, phase I dose-escalation trials, and meta-analysis.
 
 # Interests to show in About widget
 interests:
@@ -74,6 +74,6 @@ email: "burakgunhan@gmail.com"
 highlight_name: true
 ---
 
-Hello! I am a trial statistician at Merck Healthcare KGaA (Darmstadt, Germany). I am working on early phase oncology trials. Previously, I received my PhD in biostatistics from the University Medical Center Göttingen.
+Hello! I am a project lead statistician at Merck Healthcare KGaA (Darmstadt, Germany). I am working on early phase oncology trials. Previously, I received my PhD in biostatistics from the University Medical Center Göttingen.
 
 {{< icon name="download" pack="fas" >}} See my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
