@@ -74,6 +74,6 @@ email: "burakgunhan@gmail.com"
 highlight_name: true
 ---
 
-Hello! I am a project lead statistician at Merck Healthcare KGaA (Darmstadt, Germany). I am working on early phase oncology trials. Previously, I received my PhD in biostatistics from the University Medical Center Göttingen.
+Hi there! I am a project lead statistician at Merck Healthcare KGaA (Darmstadt, Germany). I am working on early phase oncology trials. Previously, I received my PhD in biostatistics from the University Medical Center Göttingen.
 
 {{< icon name="download" pack="fas" >}} See my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
