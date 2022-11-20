@@ -94,7 +94,7 @@ ggplot(cars, aes(x = speed, y = dist)) + geom_point() +
   geom_abline(intercept = coef(fit)[1], slope = coef(fit)[2])
 ```
 
-<img src="index_files/figure-html/figure-1.png" width="384" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/figure-1.png" width="384" />
 
 Bu ornekte damaginiza **knitr** kullanimindan bir tat calmayi amacladim.  
 
