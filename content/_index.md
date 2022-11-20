@@ -1,6 +1,6 @@
 ---
 title: "Burak Kürsad Günhan, PhD"
-subtitle: "Senior Biostatistician, Merck Healthcare KGaA (Darmstadt, Germany)"
+subtitle: "Senior Biostatistician @ Merck Healthcare KGaA (Darmstadt, Germany)"
 description: "I am a project-lead biostatistician working in early oncology drug development."
 images:
   - img/avatar.jpg
