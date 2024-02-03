@@ -9,7 +9,7 @@ headline: |
 <!-- this is a subheadline -->
 I am a project lead biostatistician at Merck Healthcare KGaA (Darmstadt, Germany). I am working on early phase oncology trials. Previously, I worked as research assistant  University Medical Center Göttingen, with the focus on meta-analysis and Bayesian methods for borrowing information in clinical drug development. 
 
-<i class="fas fa-download pr2"></i>See my <staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref></i>
+<i class="fas fa-download pr2"></i>See my resumé
 
 <i class="fas fa-graduation-cap pr2"></i>PhD in Biostatistics  &#8729;
  University Medical Center Göttingen  &#8729;  2020
