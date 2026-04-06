@@ -1,0 +1,63 @@
+/* Make the first landing section easier to read without affecting the rest of the site. */
+.navbar-brand {
+  font-size: 1.9rem;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.15rem;
+}
+
+#about .portrait-title h2 {
+  font-size: 2.2rem;
+  line-height: 1.08;
+  margin-bottom: 0.4rem;
+}
+
+#about .portrait-title h3 {
+  font-size: 1.4rem;
+}
+
+#about p,
+#about li,
+#about .course,
+#about .institution {
+  font-size: 1.1rem;
+}
+
+#about p {
+  font-size: 1.22rem;
+  line-height: 1.65;
+}
+
+#about .network-icon .big-icon {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 1.05rem;
+  }
+
+  #about .portrait-title h2 {
+    font-size: 1.95rem;
+  }
+
+  #about .portrait-title h3 {
+    font-size: 1.25rem;
+  }
+
+  #about p,
+  #about li,
+  #about .course,
+  #about .institution {
+    font-size: 1.05rem;
+  }
+
+  #about p {
+    font-size: 1.12rem;
+  }
+}

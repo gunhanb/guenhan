@@ -6,7 +6,7 @@ title: Burak Kürsad Günhan
 superuser: true
 
 # Role/position/tagline
-role: Senior Biostatistician
+role: Senior Principal Biostatistician
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -74,6 +74,6 @@ email: "burakgunhan@gmail.com"
 highlight_name: true
 ---
 
-Hi there! I am a project lead statistician at Merck Healthcare KGaA (Darmstadt, Germany). I am working on early phase oncology trials. Previously, I received my PhD in biostatistics from the University Medical Center Göttingen.
+I am a Senior Principal Biostatistician at Merck Healthcare KGaA (Darmstadt, Germany), where I work on early phase oncology trials. My work focuses on Bayesian methods, dose-escalation trials, and evidence synthesis, with a particular interest in developing practical statistical methods for clinical drug development. Previously, I received my PhD in biostatistics from the University Medical Center Göttingen.
 
 {{< icon name="download" pack="fas" >}} See my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
