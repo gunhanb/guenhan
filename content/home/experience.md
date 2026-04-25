@@ -22,7 +22,7 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Senior Biostatistician
+  - title: Senior Principal Biostatistician
     company: Merck Healthcare KGaA 
     company_url: 'https://www.merckgroup.com/en'
     location: Darmstadt, Germany

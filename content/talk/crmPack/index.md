@@ -17,7 +17,9 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: "2022-08-23T00:00:00Z"
 
-authors: ["Oliver Boix and Burak Kürsad Günhan"]
+authors:
+- Oliver Boix
+- Burak Kürsad Günhan
 tags: []
 
 # Is this a featured talk? (true/false)

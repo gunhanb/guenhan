@@ -33,7 +33,7 @@ abstract: Network meta‐analysis (NMA) is gaining popularity for comparing mult
 
 
 # Summary. An optional shortened abstract.
-summary: We developed a method to for the meta-analysis of few studies involving rare events.
+summary: We developed an INLA-based approach for network meta-analysis and meta-regression.
 
 tags: [Meta-analysis, Bayesian]
 
@@ -61,6 +61,5 @@ image:
   focal_point: ""
   preview_only: false
 ---
-
 
 
