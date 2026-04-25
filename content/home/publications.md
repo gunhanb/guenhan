@@ -7,10 +7,10 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 70
+weight: 50
 
 title: Publications
-subtitle: ''
+subtitle: 'Selected methodological work in clinical trials and meta-analysis'
 
 content:
   # Page type to display. E.g. post, talk, publication...
@@ -36,4 +36,3 @@ design:
   #   4 = Citation (publication only)
   view: 2
 ---
-

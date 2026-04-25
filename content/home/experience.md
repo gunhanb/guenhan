@@ -7,10 +7,10 @@ widget: experience
 headless: true
 
 # Order that this section appears on the page.
-weight: 40
+weight: 60
 
 title: Experience
-subtitle:
+subtitle: Roles in biostatistics, methodology, and clinical development
 
 # Date format for experience
 #   Refer to https://wowchemy.com/docs/customization/#date-format

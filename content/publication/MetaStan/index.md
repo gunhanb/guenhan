@@ -34,7 +34,7 @@ abstract: Meta-analyses of clinical trials targeting rare events face particular
 
 
 # Summary. An optional shortened abstract.
-summary: We developed a method to for the meta-analysis of few studies involving rare events.
+summary: A Bayesian meta-analysis method for sparse binary data that improves estimation in small and rare-event settings.
 
 tags: [Meta-analysis, Bayesian]
 
@@ -62,6 +62,5 @@ image:
   focal_point: ""
   preview_only: false
 ---
-
 
 

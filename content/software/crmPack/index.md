@@ -1,6 +1,6 @@
 ---
 title: crmPack
-summary: Object-Oriented Implementation of CRM Designs
+summary: Model-based dose-escalation methods for phase I trials, from classical CRM to more flexible Bayesian designs.
 tags:
 - phase I dose-escalation trials
 date: "2022-09-02T00:00:00Z"
@@ -21,6 +21,6 @@ url_video: ""
 
 
 ---
-I am in the development team of the R package **crmPack**.
+crmPack is a toolkit for model-based dose-escalation designs in phase I trials. It supports a broad range of Bayesian CRM-style approaches and related extensions, with enough flexibility to explore both standard and more specialized dose-finding settings.
 
-**Description**: Implements a wide range of model-based dose escalation designs, ranging from classical and modern continual reassessment methods (CRMs) based on dose-limiting toxicity endpoints to dual-endpoint designs taking into account a biomarker/efficacy outcome. The focus is on Bayesian inference, making it very easy to setup a new design with its own JAGS code. However, it is also possible to implement 3+3 designs for comparison or models with non-Bayesian estimation. The whole package is written in a modular form in the S4 class system, making it very flexible for adaptation to new models, escalation or stopping rules.
+I contribute to the development team of crmPack. The package is useful for implementing, comparing, and adapting modern dose-escalation methods in a way that is much closer to methodological practice than rule-based designs alone.

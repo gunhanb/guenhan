@@ -1,6 +1,6 @@
 ---
 title: nmaINLA
-summary: An R package for Network Meta-Analysis using Integrated Nested Laplace Approximations
+summary: Fast Bayesian network meta-analysis with INLA, including heterogeneity and inconsistency assessment.
 tags:
 - Network Meta-analysis
 date: "2020-04-27T00:00:00Z"
@@ -22,4 +22,6 @@ url_video: ""
 
 
 ---
-nmaINLA is an R package for Bayesian network meta-analysis using integrated nested Laplace approximations ('INLA') which is described in Guenhan, Held, and Friede (2018) <doi:10.1002/jrsm.1285>. Includes methods to assess the heterogeneity and inconsistency in the network. Contains more than ten different network meta-analysis data. 'INLA' package can be obtained from <http://www.r-inla.org>. We recommend the testing version
+nmaINLA is a package for Bayesian network meta-analysis using integrated nested Laplace approximations (INLA), designed for faster inference than traditional MCMC-based workflows while still supporting key model components such as heterogeneity and inconsistency.
+
+It accompanies the methodology from Guenhan, Held, and Friede (2018) <doi:10.1002/jrsm.1285> and is intended for applied network meta-analysis where computational efficiency and practical model fitting both matter.

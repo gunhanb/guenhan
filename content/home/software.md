@@ -7,10 +7,10 @@ widget: portfolio
 headless: true
 
 # Order that this section appears on the page.
-weight: 65
+weight: 40
 
 title: Software
-subtitle: ''
+subtitle: 'Statistical tools for Bayesian trial design and evidence synthesis'
 
 content:
   # Page type to display. E.g. project.

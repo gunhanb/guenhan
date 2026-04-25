@@ -1,6 +1,6 @@
 ---
 title: MetaStan
-summary: An R package for Bayesian Meta-Analysis via 'Stan'
+summary: Bayesian meta-analysis tools in Stan for sparse data, hierarchical models, and weakly informative priors.
 tags:
 - Meta-analysis
 date: "2020-04-27T00:00:00Z"
@@ -22,4 +22,6 @@ url_video: ""
 
 
 ---
-MetaStan is an R package for Bayesian meta-analysis via 'Stan'. Performs Bayesian meta-analysis and model-based meta-analysis using 'Stan'. Includes binomial-normal hierarchical models and option to use weakly informative priors for the heterogeneity parameter and the treatment effect parameter which are described in Guenhan, Roever, and Friede (2020) <doi:10.1002/jrsm.1370>.
+MetaStan provides Bayesian meta-analysis tools in Stan, with a focus on sparse binary data, hierarchical models, and weakly informative priors for settings where standard methods can be unstable.
+
+The package implements the methods developed in Guenhan, Roever, and Friede (2020) <doi:10.1002/jrsm.1370> and is aimed at practical evidence synthesis problems where robust estimation matters more than generic workflow coverage.

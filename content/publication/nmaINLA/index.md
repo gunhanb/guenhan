@@ -33,7 +33,7 @@ abstract: Network meta‐analysis (NMA) is gaining popularity for comparing mult
 
 
 # Summary. An optional shortened abstract.
-summary: We developed an INLA-based approach for network meta-analysis and meta-regression.
+summary: An INLA-based framework for efficient Bayesian network meta-analysis and meta-regression.
 
 tags: [Meta-analysis, Bayesian]
 
@@ -61,5 +61,4 @@ image:
   focal_point: ""
   preview_only: false
 ---
-
 

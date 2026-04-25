@@ -33,7 +33,7 @@ abstract: Recently, phase II trials with multiple schedules (frequency of admini
 
 
 # Summary. An optional shortened abstract.
-summary: We propose a Bayesian hierarchical model with random-effects to model the between-schedule heterogeneity with regard to certain parameters for the phase II trials with multiple schedules. 
+summary: A Bayesian hierarchical approach for dose-response modeling across multiple schedules in phase II trials.
 
 tags: [Phase II trials, Bayesian]
 
@@ -61,6 +61,5 @@ image:
   focal_point: ""
   preview_only: false
 ---
-
 
 
